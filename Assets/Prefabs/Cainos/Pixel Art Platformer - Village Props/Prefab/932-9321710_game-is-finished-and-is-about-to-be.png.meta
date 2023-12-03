@@ -1,0 +1,805 @@
+fileFormatVersion: 2
+guid: a3f42c872adf49040895d25901f88aa9
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 0
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 932-9321710_game-is-finished-and-is-about-to-be_0
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 859
+        width: 179
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 943523dec4277304eb7736e4d0b43267
+      internalID: -440774446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 932-9321710_game-is-finished-and-is-about-to-be_1
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 849
+        width: 28
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b623427c5a09774bbdc229db98a39aa
+      internalID: -1496876736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 932-9321710_game-is-finished-and-is-about-to-be_2
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 872
+        width: 29
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf733a80a137f084cbb29a28f88c0878
+      internalID: -1279603402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 932-9321710_game-is-finished-and-is-about-to-be_3
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 637
+        width: 176
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 066112e68ded70e4a8bdd38a62a37dd5
+      internalID: 1779387916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 932-9321710_game-is-finished-and-is-about-to-be_4
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 643
+        width: 173
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a42294737ee7e847857be3da3e6e23f
+      internalID: 1384663987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 932-9321710_game-is-finished-and-is-about-to-be_5
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 647
+        width: 176
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b8652e543c7f36448ee3424c85cb730
+      internalID: -770175550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 932-9321710_game-is-finished-and-is-about-to-be_6
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 646
+        width: 179
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d99d803f567c14d4c9bb1fc5b18bfd03
+      internalID: -1078055637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 932-9321710_game-is-finished-and-is-about-to-be_7
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 659
+        width: 29
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93dea50a2db7e254ca386c3761e66347
+      internalID: 1838767021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 932-9321710_game-is-finished-and-is-about-to-be_8
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 650
+        width: 180
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4558ae54f663e064585e1235c554fe58
+      internalID: 1327258238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 932-9321710_game-is-finished-and-is-about-to-be_9
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 424
+        width: 172
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b27b2c8ef0a86b54aa0c2c563c0c0f25
+      internalID: 310644161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 932-9321710_game-is-finished-and-is-about-to-be_10
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 424
+        width: 147
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 128d76a66fd93c6499877183ef28aa7e
+      internalID: 615439536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 932-9321710_game-is-finished-and-is-about-to-be_11
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 438
+        width: 117
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07d343732e002684ea45645f80cef662
+      internalID: 1931034044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 932-9321710_game-is-finished-and-is-about-to-be_12
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 423
+        width: 17
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d96b33e363db7843b1c2553ad942c9d
+      internalID: -2004684219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 932-9321710_game-is-finished-and-is-about-to-be_13
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 440
+        width: 25
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ed6e916215322c4284902b34cae0796
+      internalID: -1717678635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 932-9321710_game-is-finished-and-is-about-to-be_14
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 436
+        width: 25
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cb3497d4bd406e48a591b6bbdf17944
+      internalID: -105594935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 932-9321710_game-is-finished-and-is-about-to-be_15
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 419
+        width: 135
+        height: 209
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df94608bfb3323c4ca8763e29fd305a6
+      internalID: 1424703715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 932-9321710_game-is-finished-and-is-about-to-be_16
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 436
+        width: 25
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb959d43aa9599e46975254af5618a6d
+      internalID: -1187511448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 932-9321710_game-is-finished-and-is-about-to-be_17
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 419
+        width: 135
+        height: 209
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61104f0041f556043b38f3a94d77ac59
+      internalID: -541548503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 932-9321710_game-is-finished-and-is-about-to-be_18
+      rect:
+        serializedVersion: 2
+        x: 965
+        y: 436
+        width: 25
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb4fbb70c7fee9048821ea20d1fa0cc2
+      internalID: 1107713093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 932-9321710_game-is-finished-and-is-about-to-be_19
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 419
+        width: 169
+        height: 209
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f4f1ebf34fdbc74eb0e7bbb2cc56328
+      internalID: -200959421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 932-9321710_game-is-finished-and-is-about-to-be_20
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 220
+        width: 179
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c835f94c9fca9e24da282bcd1cc9ac52
+      internalID: -201589027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 932-9321710_game-is-finished-and-is-about-to-be_21
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 210
+        width: 28
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 042c0417ebd55f74db3c56d0d200c86e
+      internalID: -2009387214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 932-9321710_game-is-finished-and-is-about-to-be_22
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 233
+        width: 29
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 119e612a74c8cac4a9066a9166a09f69
+      internalID: -932596914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 932-9321710_game-is-finished-and-is-about-to-be_23
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 220
+        width: 179
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d35edaf097578847aeea7aa60c0d04a
+      internalID: 298939547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 932-9321710_game-is-finished-and-is-about-to-be_24
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 210
+        width: 28
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ef209be6c143b148bbaa3b7fe232e43
+      internalID: 74254923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 932-9321710_game-is-finished-and-is-about-to-be_25
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 233
+        width: 29
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70322ede7fd0be240b2781ec5932eabd
+      internalID: -489336695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 932-9321710_game-is-finished-and-is-about-to-be_26
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 220
+        width: 179
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 497682abc4ab0104ca3dc4e830d9ad78
+      internalID: 581727927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 932-9321710_game-is-finished-and-is-about-to-be_27
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 210
+        width: 28
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 364b677e6c10fbb4ab652f26f9b44d49
+      internalID: -459707116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 932-9321710_game-is-finished-and-is-about-to-be_28
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 233
+        width: 29
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f89d1959be70190419a9cbf8c5b0d440
+      internalID: 646964505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 932-9321710_game-is-finished-and-is-about-to-be_29
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 0
+        width: 185
+        height: 207
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9af18884c9b83c44c8f8641b62d445d2
+      internalID: 402567683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 932-9321710_game-is-finished-and-is-about-to-be_30
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 3
+        width: 172
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb019dd463f54b9428e961bae1abdb3e
+      internalID: 917826041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 07137a45e2b9e9546a8a2526af1d2542
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      932-9321710_game-is-finished-and-is-about-to-be_20: -201589027
+      932-9321710_game-is-finished-and-is-about-to-be_13: -1717678635
+      932-9321710_game-is-finished-and-is-about-to-be_2: -1279603402
+      932-9321710_game-is-finished-and-is-about-to-be_14: -105594935
+      932-9321710_game-is-finished-and-is-about-to-be_9: 310644161
+      932-9321710_game-is-finished-and-is-about-to-be_15: 1424703715
+      932-9321710_game-is-finished-and-is-about-to-be_19: -200959421
+      932-9321710_game-is-finished-and-is-about-to-be_4: 1384663987
+      932-9321710_game-is-finished-and-is-about-to-be_5: -770175550
+      932-9321710_game-is-finished-and-is-about-to-be_6: -1078055637
+      932-9321710_game-is-finished-and-is-about-to-be_28: 646964505
+      932-9321710_game-is-finished-and-is-about-to-be_17: -541548503
+      932-9321710_game-is-finished-and-is-about-to-be_22: -932596914
+      932-9321710_game-is-finished-and-is-about-to-be_7: 1838767021
+      932-9321710_game-is-finished-and-is-about-to-be_25: -489336695
+      932-9321710_game-is-finished-and-is-about-to-be_27: -459707116
+      932-9321710_game-is-finished-and-is-about-to-be_12: -2004684219
+      932-9321710_game-is-finished-and-is-about-to-be_16: -1187511448
+      932-9321710_game-is-finished-and-is-about-to-be_0: -440774446
+      932-9321710_game-is-finished-and-is-about-to-be_30: 917826041
+      932-9321710_game-is-finished-and-is-about-to-be_11: 1931034044
+      932-9321710_game-is-finished-and-is-about-to-be_8: 1327258238
+      932-9321710_game-is-finished-and-is-about-to-be_21: -2009387214
+      932-9321710_game-is-finished-and-is-about-to-be_26: 581727927
+      932-9321710_game-is-finished-and-is-about-to-be_3: 1779387916
+      932-9321710_game-is-finished-and-is-about-to-be_24: 74254923
+      932-9321710_game-is-finished-and-is-about-to-be_10: 615439536
+      932-9321710_game-is-finished-and-is-about-to-be_18: 1107713093
+      932-9321710_game-is-finished-and-is-about-to-be_23: 298939547
+      932-9321710_game-is-finished-and-is-about-to-be_29: 402567683
+      932-9321710_game-is-finished-and-is-about-to-be_1: -1496876736
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,3005 @@
+fileFormatVersion: 2
+guid: 493192dacad8e57439b6cf9e55720576
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 0
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 1
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: newBomb_0
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 572
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e54e043d3bcbc8418c52ffeb07326c6
+      internalID: 1686580866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newBomb_1
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 565
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f380a20b1c46894483e85dc169da4f3
+      internalID: -412005120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newBomb_2
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 558
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bbc6c0f9a3c6ab458f47a0c95e22f2e
+      internalID: -1711512150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newBomb_3
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 552
+        width: 64
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 457f20b960b51ee48b0d61f757e5db7c
+      internalID: 923646991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newBomb_4
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 546
+        width: 75
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 982e798f1791b6746bb488ba77ede64d
+      internalID: -334567955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newBomb_5
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 408
+        width: 87
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34b4236856919e8448f9411b0c2562de
+      internalID: -1621190842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newBomb_6
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 405
+        width: 94
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2d16bb0788d3da44a7aea31fa9be7fe
+      internalID: -1271720016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newBomb_7
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 499
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 460949fc79fec0e4fb923d10f0b9b848
+      internalID: 1987400375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newBomb_8
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 403
+        width: 102
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16f664d2bf8c4e347a45c8b108ab8547
+      internalID: 330903525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newBomb_9
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 400
+        width: 107
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f435f094fc3530d4bb0516c5e17e9023
+      internalID: -1215973979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newBomb_10
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 412
+        width: 80
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19df0976983bdce45ae4715518c64320
+      internalID: -1575488916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newBomb_11
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 443
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2b78c9221f42414290cd7e7352a397c
+      internalID: 1370071984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newBomb_12
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 442
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f15dc31e05be074686ab971c1e1329e
+      internalID: 67913281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newBomb_13
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 441
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbe71ba726d00584588fbf6e46d464b1
+      internalID: 1803281064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newBomb_14
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 158
+        width: 111
+        height: 218
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aabee439f2c43744f8e21d65fbee7957
+      internalID: -2029364655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newBomb_15
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 362
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 822bc7487efa470408a8bb5619f7adeb
+      internalID: 1477889750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newBomb_16
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 145
+        width: 124
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 706c0828ca5167a4e886e5940089cd1c
+      internalID: -1853889343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newBomb_17
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 366
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7142460542c7e0a48a50cc670208e96b
+      internalID: -1045759281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newBomb_18
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 130
+        width: 121
+        height: 249
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c774a32798403564584680275365b6bc
+      internalID: 1588441089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newBomb_19
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 369
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 120520d377f1e304ba929cb6da2429e1
+      internalID: -186213176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newBomb_20
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 130
+        width: 131
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b1985ba906e0f944b296b34879d49ab
+      internalID: 1307087854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newBomb_21
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 370
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78fc2c991c628a84a9a916acb35db853
+      internalID: 1645902995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newBomb_22
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 365
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6cb679d90b62464b8cacee51adff85b
+      internalID: -300894284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newBomb_23
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 368
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0311e75b1b97e4243ba7a9e954bd20ae
+      internalID: -1981725789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newBomb_24
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 363
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16ac895233e248948879d5bb7bc0170f
+      internalID: 1099381825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newBomb_25
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 370
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 525cb534b7beefd4c8fbe04ead1b3631
+      internalID: -1181467748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newBomb_26
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 357
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3870678984c01d41a72d579d53d99c5
+      internalID: 2124328846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newBomb_27
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 352
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8eccad9efd252fe4590aa798b97da005
+      internalID: 158488509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newBomb_28
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 263
+        width: 97
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c19f11547a201b48a3789bf67342ad8
+      internalID: -416653737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newBomb_29
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 362
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f5d2ab510b27ac46bb5633da946add3
+      internalID: -1341360741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newBomb_30
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 344
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a16b2429a49f274bb5d1ca3d298fdcd
+      internalID: 1681030323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newBomb_31
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 345
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7927ea7620c86494da64512e706cd066
+      internalID: 569849311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newBomb_32
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 331
+        width: 15
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a58049a796a7169469cbbf065e963b23
+      internalID: 2113011184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newBomb_33
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 346
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9776fce623a7534da13b304f98526de
+      internalID: 1473538803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newBomb_34
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 350
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 952f776205d72e840b2ba439f9204b36
+      internalID: 1154071282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newBomb_35
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 341
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebb2fb93bd6ea074088081012085796f
+      internalID: 1090339335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newBomb_36
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 337
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efac38bbc6da6a1499cf7b756259f1b5
+      internalID: -415949447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newBomb_37
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 334
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fde38c5a5a2c484ab672306f889fbd5
+      internalID: 2012042426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newBomb_38
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 337
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4b7bbed2a531ef4abc58711b3cddff9
+      internalID: -767303636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newBomb_39
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 335
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f4f8045ec3ec1941bb1c62d1d570659
+      internalID: -889827568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newBomb_40
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 337
+        width: 4
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0184987b357319c4cb56e9e44a958526
+      internalID: 284483323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newBomb_41
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 335
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33b90737346f7064cb87d03b0c88a8b1
+      internalID: -108293544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newBomb_42
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 338
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80fe0ca0f3ed6674f8eeeb8428eae1c6
+      internalID: -541996394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newBomb_43
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 335
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 914c3120ac6129446a7c298ecd80a8e3
+      internalID: 2086162429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newBomb_44
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 330
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02ca54f322ac19d49a96ae1a8be5192a
+      internalID: 435570351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newBomb_45
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 331
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3e20f096cce27442b29200f9b03dd96
+      internalID: -56674478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newBomb_46
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 331
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91ade8ebb30bc9a42bcbc08343c09352
+      internalID: 1664837488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newBomb_47
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 331
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71f64bb08ce5e484580dffb9381284ae
+      internalID: -225594983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newBomb_48
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 331
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b154dfa7c845ab64985c047205b50915
+      internalID: 1067187318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newBomb_49
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 318
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd7685efd42bda84d9611373fef6ce5a
+      internalID: -736951606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newBomb_50
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 318
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd505f00ba833be46b6e1fda08a62296
+      internalID: 1566580054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newBomb_51
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 307
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35e1b88233074f446937de3661bc3d38
+      internalID: -529476948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newBomb_52
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 302
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a58e7615762cead41b8709fe234eb6b3
+      internalID: -663033998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newBomb_53
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 313
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c45e68c59c8e67c4086836e046ad3d32
+      internalID: -439697351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newBomb_54
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 289
+        width: 10
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8408d5d255b95d64888a811b1da56f51
+      internalID: 1992450764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newBomb_55
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 312
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad5ff2d67449a5741add3c8dd8e2961d
+      internalID: 863169085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newBomb_56
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 303
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44a06663d7af8c941a10cd2e357b6300
+      internalID: -249051625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newBomb_57
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 302
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 567a4adadc830354b90fa075322de758
+      internalID: -1213412840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newBomb_58
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 306
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04c7b700c115488469008971ce01721d
+      internalID: -1653199586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newBomb_59
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 302
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5eb21430d9a16d74babf4a8078005b94
+      internalID: -335745796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newBomb_60
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 306
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 278b26f0f1ec82b4ab357fa21cadb0e8
+      internalID: -1564302930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newBomb_61
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 301
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76ef2229d6aa1584aa1d6129421a2906
+      internalID: 300386240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newBomb_62
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 300
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ce40d59d1f68f14bae42f8dce75e3d2
+      internalID: 768315127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newBomb_63
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 296
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11c807fce069c954b9ca62d9859ab3b3
+      internalID: 2085505380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newBomb_64
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 298
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 443a537a50208b74dadfdec956355b69
+      internalID: 1493729333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newBomb_65
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 297
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82e1f13cfac08444dbd8829410b29ffb
+      internalID: -171029361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newBomb_66
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 287
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c674d771eb1b89949bdaeb73832b573d
+      internalID: -815112769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newBomb_67
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 291
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8f585ee37592c64496e2b0027cc4e84
+      internalID: -2000981145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newBomb_68
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 287
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b19a4360f0cb6e54f899e0ef70503b67
+      internalID: 1950364692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newBomb_69
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 290
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c14414c09b5137448b10151accc3c1c
+      internalID: 837173995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newBomb_70
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 280
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9576ee3ace5af6042a32fe7627ae5ef0
+      internalID: -1027110023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newBomb_71
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 285
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57a5ebaac2127d94f865cc9d569f2be9
+      internalID: 990714715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newBomb_72
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 279
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 133c353f40fbaf04fa2b323dcbd5bb6e
+      internalID: -158480706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newBomb_73
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 281
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3d907d4bcb1fdd4dbf1771400d4e950
+      internalID: 1773396805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newBomb_74
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 284
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bffc08da87851c540be64fc9939dfd53
+      internalID: -637108202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newBomb_75
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 278
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38ed862bea879274a9a33d662ae9fec5
+      internalID: 28505857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newBomb_76
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 280
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 025cac18fb9a5d548ad5472aa04ff436
+      internalID: 808697845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newBomb_77
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 276
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 380384f499b7b8c4a85d3b6c0967cf22
+      internalID: -1830507092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newBomb_78
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 268
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2817d806095125f43ac94755b132e8d7
+      internalID: 1429120566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newBomb_79
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 274
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3e5cd819e7ede44eb9b18e8ee3cab0e
+      internalID: 410885464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newBomb_80
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 273
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72ac78e2b66d03144a4458035735e53b
+      internalID: 1598362769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newBomb_81
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 272
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15d40d2c24c112f4cac9a62409781ff4
+      internalID: -1268881309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newBomb_82
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 271
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d969b398e6147424d87ba8db7f4aef67
+      internalID: -1382561255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newBomb_83
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 268
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3d2a5b06f2b337498a9b0eaa594164f
+      internalID: -1604335549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newBomb_84
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 267
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 720af73d33ae8e849aa0abe17f6da135
+      internalID: 1507535482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newBomb_85
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 265
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 101910b9354df1e4abcbbdc53178b086
+      internalID: 1831285727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newBomb_86
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 264
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e07616e5348c2014898a75b6fba6ac44
+      internalID: -42734742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newBomb_87
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 233
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62fa7d3e20092c24a8dfec870cd7d65d
+      internalID: 939579454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newBomb_88
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 234
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d80a4a51e78e50e41a3486d8510a273f
+      internalID: -1076511401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newBomb_89
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 234
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 728e874ad5ad2f443bca01905498a844
+      internalID: -247184004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newBomb_90
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 235
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76e435b99c3087b42b31f5569e584174
+      internalID: -1257081103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newBomb_91
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 235
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 584518aef1e150844ae0587adb034626
+      internalID: 1703407175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newBomb_92
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 229
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c74885b93068aed4d834c515deca9d77
+      internalID: -2025399205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newBomb_93
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 130
+        width: 112
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdb2d3548c7c5c849a8b500158bd6dd7
+      internalID: -1736518372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newBomb_94
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 93
+        width: 89
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9261b1e96ba2d25449b45635e1483070
+      internalID: -2001220311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newBomb_95
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 227
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5099924ed63fa94c883d532c9bada13
+      internalID: 1734593623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newBomb_96
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 132
+        width: 68
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33a5100c84867774097ee5d5b7286369
+      internalID: 1691833116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newBomb_97
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 231
+        width: 7
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c55dfeccde04d44bb126a087c500f16
+      internalID: -1540086100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newBomb_98
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 228
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a8ed21d515fc6a4cbea9ba25a52c963
+      internalID: -1984087109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newBomb_99
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 228
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71399f92bd90d98418c3481ba1ea5fcf
+      internalID: 1407593959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newBomb_100
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 216
+        width: 7
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e35387853f63ccb4399b1f9daf66211c
+      internalID: -205742560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newBomb_101
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 216
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd00bc6489fcc1a4f89fd57b9a3dbb63
+      internalID: 807291753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newBomb_102
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 216
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ea6ca3b59f1bf74ab16d3c88d5ea6db
+      internalID: 480433299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newBomb_103
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 218
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17e557d8073a4104e9faa456f37183de
+      internalID: -1113184716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newBomb_104
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 216
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65ad23ff8b4bd4a49ab801832a5794b5
+      internalID: -181608583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newBomb_105
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 170
+        width: 64
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9df37c1397bb81f40b4df835bd6fac67
+      internalID: 1765651607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newBomb_106
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 170
+        width: 62
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2db55e3d8530ea74dace3c2bbee90fdd
+      internalID: -1206766896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newBomb_107
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 218
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5b093f59ce7d0d48ab17850e1f0c699
+      internalID: 1473377649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newBomb_108
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 205
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffa36ee69ab9ee440ae246410644ca5b
+      internalID: -765120918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newBomb_109
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 207
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 438ba048f3d5ec9418d00cf3d01a9e18
+      internalID: 2099115339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newBomb_110
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 208
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0423c38b6b2e7fa44a3f97ad9ac183af
+      internalID: -2042399301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newBomb_111
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 208
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 979cf8069e5485b4aa291068648d436e
+      internalID: -1950514504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newBomb_112
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 199
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ae48ae3a909d4f479d98a916273767c
+      internalID: -83148446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newBomb_113
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 201
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee182eb08a626b34088b6a03707d485d
+      internalID: 333709289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newBomb_114
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 182
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cfb36cb865bdc5498d2635ef04d59d4
+      internalID: 1538489543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newBomb_115
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 170
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ef8e7b90ebba7a42b6b91b009aae53e
+      internalID: -222323505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newBomb_116
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 159
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e38b6e751fb15eb46bb3cac18d64a005
+      internalID: -1343717535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newBomb_117
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 159
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 873fcce366cd3cd4caba320ff53f25f1
+      internalID: 517039901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newBomb_118
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 146
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c382e04873c4ca409d9b20456b13e05
+      internalID: 1191346132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newBomb_119
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 148
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6e38b1571419bd498bfea54bed2ee8b
+      internalID: -300247355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newBomb_120
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 150
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c9813367f688b04fb031ec80d57f7e5
+      internalID: 1084020151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newBomb_121
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 150
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8da183e654c4c35458506a330aab7e86
+      internalID: -974553268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newBomb_122
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 148
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9243ea7ff94aad743915aee331fb34c7
+      internalID: -435329458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newBomb_123
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 141
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b688834b45b74d4aa80a5dfee5b20b1
+      internalID: -563671489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newBomb_124
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 140
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 581df0ae38b329f4f894dea74a12b58a
+      internalID: 1236948341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newBomb_125
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 140
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ba98aabf8f476c4ea74dc830a5c8433
+      internalID: 2118903112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newBomb_126
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 139
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7219dd0c3998f0049a58a1c902f07336
+      internalID: 25833293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newBomb_127
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 0
+        width: 90
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90be41771567ade4499e2367c3c4d56e
+      internalID: 1803465468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newBomb_128
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 8
+        width: 64
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6cbbff2be24c9444aee3ce4657825af
+      internalID: -1078234293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newBomb_129
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 8
+        width: 81
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3524da68fcff3374dbfe97d580f9ac3c
+      internalID: -1861944087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newBomb_130
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 9
+        width: 60
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15e0edcbb3f6c2f4cab45d927136e40e
+      internalID: 805943757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: a7a498c3f89a6834d8ee1217bdb186df
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      newBomb_34: 1154071282
+      newBomb_94: -2001220311
+      newBomb_101: 807291753
+      newBomb_73: 1773396805
+      newBomb_99: 1407593959
+      newBomb_108: -765120918
+      newBomb_105: 1765651607
+      newBomb_2: -1711512150
+      newBomb_24: 1099381825
+      newBomb_49: -736951606
+      newBomb_70: -1027110023
+      newBomb_45: -56674478
+      newBomb_97: -1540086100
+      newBomb_47: -225594983
+      newBomb_75: 28505857
+      newBomb_81: -1268881309
+      newBomb_22: -300894284
+      newBomb_41: -108293544
+      newBomb_115: -222323505
+      newBomb_42: -541996394
+      newBomb_83: -1604335549
+      newBomb_113: 333709289
+      newBomb_64: 1493729333
+      newBomb_19: -186213176
+      newBomb_12: 67913281
+      newBomb_120: 1084020151
+      newBomb_14: -2029364655
+      newBomb_50: 1566580054
+      newBomb_74: -637108202
+      newBomb_130: 805943757
+      newBomb_37: 2012042426
+      newBomb_78: 1429120566
+      newBomb_61: 300386240
+      newBomb_76: 808697845
+      newBomb_77: -1830507092
+      newBomb_39: -889827568
+      newBomb_6: -1271720016
+      newBomb_127: 1803465468
+      newBomb_106: -1206766896
+      newBomb_67: -2000981145
+      newBomb_126: 25833293
+      newBomb_5: -1621190842
+      newBomb_26: 2124328846
+      newBomb_11: 1370071984
+      newBomb_124: 1236948341
+      newBomb_111: -1950514504
+      newBomb_114: 1538489543
+      newBomb_93: -1736518372
+      newBomb_107: 1473377649
+      newBomb_10: -1575488916
+      newBomb_85: 1831285727
+      newBomb_86: -42734742
+      newBomb_110: -2042399301
+      newBomb_63: 2085505380
+      newBomb_68: 1950364692
+      newBomb_66: -815112769
+      newBomb_13: 1803281064
+      newBomb_29: -1341360741
+      newBomb_51: -529476948
+      newBomb_119: -300247355
+      newBomb_23: -1981725789
+      newBomb_32: 2113011184
+      newBomb_104: -181608583
+      newBomb_90: -1257081103
+      newBomb_125: 2118903112
+      newBomb_8: 330903525
+      newBomb_7: 1987400375
+      newBomb_54: 1992450764
+      newBomb_28: -416653737
+      newBomb_58: -1653199586
+      newBomb_92: -2025399205
+      newBomb_18: 1588441089
+      newBomb_0: 1686580866
+      newBomb_59: -335745796
+      newBomb_121: -974553268
+      newBomb_21: 1645902995
+      newBomb_20: 1307087854
+      newBomb_40: 284483323
+      newBomb_46: 1664837488
+      newBomb_98: -1984087109
+      newBomb_128: -1078234293
+      newBomb_122: -435329458
+      newBomb_123: -563671489
+      newBomb_109: 2099115339
+      newBomb_100: -205742560
+      newBomb_25: -1181467748
+      newBomb_4: -334567955
+      newBomb_17: -1045759281
+      newBomb_69: 837173995
+      newBomb_36: -415949447
+      newBomb_71: 990714715
+      newBomb_16: -1853889343
+      newBomb_65: -171029361
+      newBomb_53: -439697351
+      newBomb_102: 480433299
+      newBomb_30: 1681030323
+      newBomb_9: -1215973979
+      newBomb_31: 569849311
+      newBomb_52: -663033998
+      newBomb_55: 863169085
+      newBomb_103: -1113184716
+      newBomb_87: 939579454
+      newBomb_57: -1213412840
+      newBomb_88: -1076511401
+      newBomb_48: 1067187318
+      newBomb_79: 410885464
+      newBomb_117: 517039901
+      newBomb_62: 768315127
+      newBomb_35: 1090339335
+      newBomb_72: -158480706
+      newBomb_95: 1734593623
+      newBomb_129: -1861944087
+      newBomb_60: -1564302930
+      newBomb_38: -767303636
+      newBomb_1: -412005120
+      newBomb_80: 1598362769
+      newBomb_33: 1473538803
+      newBomb_82: -1382561255
+      newBomb_116: -1343717535
+      newBomb_96: 1691833116
+      newBomb_27: 158488509
+      newBomb_84: 1507535482
+      newBomb_44: 435570351
+      newBomb_89: -247184004
+      newBomb_91: 1703407175
+      newBomb_118: 1191346132
+      newBomb_15: 1477889750
+      newBomb_56: -249051625
+      newBomb_43: 2086162429
+      newBomb_3: 923646991
+      newBomb_112: -83148446
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

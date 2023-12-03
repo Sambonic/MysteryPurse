@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Picture
+  - Item
+  - GroundSpike
+  - Weapon
+  - FallingBridge
+  - Ground
+  - Bone
+  - Small Health
+  - Shield
+  - Big Health
+  - Pin Sword
+  - FinishFlag
+  - Destructible
+  - Fire
+  - Ladder
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: BG
+    uniqueID: 117686143
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: FG-1
+    uniqueID: 622813283
+    locked: 0
+  - name: FG-2
+    uniqueID: 2178870197
+    locked: 0
+  - name: FG-3
+    uniqueID: 128459277
+    locked: 0
+  - name: Ground
+    uniqueID: 1462901483
+    locked: 0

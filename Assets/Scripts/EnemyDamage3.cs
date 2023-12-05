@@ -9,9 +9,7 @@ public class EnemyDamage3 : MonoBehaviour
     {
         if (collision.tag =="Player")
         {
-            // Assuming the Player has a health component
             PlayerStatus3 playerHealth = collision.GetComponent<PlayerStatus3>();
-            // Deal damage to the player
             playerHealth.damage(damageAmount);
             Debug.Log("Player Hit");
         }

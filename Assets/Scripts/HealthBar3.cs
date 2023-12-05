@@ -72,6 +72,13 @@ public class HealthBar3 : MonoBehaviour
         }
     }
 
+    public void resetHealth()
+    {
+        Health3.totalHealth = 1f;
+        setSize(Health3.totalHealth);
+        barImage.color = Color.green;
+    }
+
     //update the health bar
     public void setSize(float size)
     {

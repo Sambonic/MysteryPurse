@@ -63,9 +63,9 @@ public class PlayermotionLevel2 : MonoBehaviour
         {
             Destroy(collision.gameObject);
         }
-        else if(collision.tag == "Ladder")
+        else if (collision.tag == "Ladder" && Input.GetButton("Vertical"))
         {
-            currentLadder = collision.gameObject;
+            rb.velocity = new Vector2(transform.position.x, 3f);
         }
     }
 
@@ -151,7 +151,7 @@ public class PlayermotionLevel2 : MonoBehaviour
          verticalInput = Input.GetAxis("Vertical");
 
 
-        if (Mathf.Abs(body.velocity.y) < 0.2f)
+        if (Mathf.Abs(body.velocity.y) < 0.05f)
         {
             grounded = true;
         }

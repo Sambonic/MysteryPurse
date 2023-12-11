@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 4846649019781356724}
   - component: {fileID: 4846649019781356723}
   - component: {fileID: 4846649019781356722}
-  - component: {fileID: 882377531989800267}
+  - component: {fileID: 460687816017606898}
   - component: {fileID: 4299467528339964693}
   - component: {fileID: 3108499905048872875}
   - component: {fileID: 4846649019781356727}
@@ -137,7 +137,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &882377531989800267
+--- !u!114 &460687816017606898
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -149,6 +149,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f9339ffbb70fb0f4b83f1dfb23c99fde, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  climbSpeed: 5
+  ladderDetectionRange: 1.5
 --- !u!114 &4299467528339964693
 MonoBehaviour:
   m_ObjectHideFlags: 0

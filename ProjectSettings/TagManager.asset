@@ -19,15 +19,23 @@ TagManager:
   - Destructible
   - Fire
   - Ladder
+  - fireball
+  - smallHealth
+  - fallDetector
+  - Coins
+  - checkpoint
+  - destroyBox
+  - itemTag
+  - FireBlock
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - ground
   - Water
   - UI
-  - 
-  - 
+  - box layer
+  - Enemy
   - 
   - 
   - 
@@ -70,4 +78,7 @@ TagManager:
     locked: 0
   - name: Ground
     uniqueID: 1462901483
+    locked: 0
+  - name: Player
+    uniqueID: 4019709129
     locked: 0

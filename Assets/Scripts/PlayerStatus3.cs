@@ -26,11 +26,13 @@ public class PlayerStatus3 : MonoBehaviour
     public int points = 0;
 
     public Text scoreText;
+    public Rigidbody2D Fireblock;
 
 
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        Fireblock.isKinematic = true;
         playerAnimation = GetComponent<Animator>();
         respawnPoint = transform.position;
         scoreText.text = "Score: "+points;
@@ -74,7 +76,9 @@ public class PlayerStatus3 : MonoBehaviour
         fallDetector.transform.position = new Vector2(transform.position.x, fallDetector.transform.position.y); //fall detector position will be changed by the players x axis only
         if (Health3.totalHealth <= 0.0f)
         {
-            Destroy(this.gameObject);
+            // Destroy(this.gameObject);
+            transform.position = respawnPoint;
+            resetHealth();
         }
 
         if (points >= 27)
@@ -95,9 +99,14 @@ public class PlayerStatus3 : MonoBehaviour
         {
             transform.position = respawnPoint; // respawn the player to the beginning
         }
-        else if (collision.tag == "checkpoint")
+        if (collision.tag == "checkpoint")
         {
             respawnPoint = transform.position; //update the respawn point to the player's new position (new checkpoint)
+        }
+
+        if(collision.CompareTag("FireBlock"))
+        {
+            Fireblock.isKinematic = false;
         }
 
     }
@@ -118,6 +127,11 @@ public class PlayerStatus3 : MonoBehaviour
             healthbar.IncreaseHealth();
         }
 
+         if(collision.tag == "Fire")
+        {
+            healthbar.Damage(0.003f);
+        }
+
     }
 
     public void damage()
@@ -135,6 +149,10 @@ public class PlayerStatus3 : MonoBehaviour
     public void increaseHealth(float amount)
     {
         healthbar.IncreaseHealth(amount);
+    }
+    private void resetHealth()
+    {
+        healthbar.resetHealth();
     }
 
 

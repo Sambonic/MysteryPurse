@@ -22,9 +22,7 @@ public class PlayermotionLevel2 : MonoBehaviour
     public float climbSpeed = 5f;
     public float ladderDetectionRange = 1.5f;
 
-    private Rigidbody2D rb;
-    private bool isClimbing = false;
-    private GameObject currentLadder;
+
 
     private void Awake() //Awake method will be called each time the script is loaded.
     {                   //                     (at the beginning of the game).
@@ -63,9 +61,9 @@ public class PlayermotionLevel2 : MonoBehaviour
         {
             Destroy(collision.gameObject);
         }
-        else if (collision.tag == "Ladder" && Input.GetButton("Vertical"))
+        else if (collision.tag == "Ladder" && Input.GetKeyDown(KeyCode.W))
         {
-            rb.velocity = new Vector2(transform.position.x, 3f);
+            body.velocity = new Vector2(transform.position.x, 3f);
         }
     }
 
@@ -127,15 +125,8 @@ public class PlayermotionLevel2 : MonoBehaviour
             anim.SetBool("Attack", false);
         }
     }
-    void Climb(float verticalInput)
-    {
-        if (currentLadder != null)
-        {
-            // Move the player up or down the ladder
-            Vector2 climbVelocity = new Vector2(0f, verticalInput * climbSpeed);
-            rb.velocity = climbVelocity;
-        }
-    }
+
+
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
@@ -151,16 +142,12 @@ public class PlayermotionLevel2 : MonoBehaviour
          verticalInput = Input.GetAxis("Vertical");
 
 
-        if (Mathf.Abs(body.velocity.y) < 0.05f)
+        if (Mathf.Abs(body.velocity.y) < 0.07f)
         {
             grounded = true;
         }
 
-        if (isClimbing)
-        {
-            float verticalInput = Input.GetAxis("Vertical");
-            Climb(verticalInput);
-        }
+
 
         Move();
 

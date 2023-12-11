@@ -156,3 +156,4 @@ cython_debug/
 /.vs
 /.git
 /Temp
+/UserSettings

@@ -58,6 +58,7 @@
   <ItemGroup>
     <Compile Include="Assets\Prefabs\Cainos\Pixel Art Platformer - Village Props\Script\MovingPlatform.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SkewTextExample.cs" />
+    <Compile Include="Assets\Scripts\DialogueActivator.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SimpleScript.cs" />
     <Compile Include="Assets\Prefabs\Cainos\Third Party\Lucid Editor\Runtime\Attributes\GUIColorAttribute.cs" />
     <Compile Include="Assets\Prefabs\Cainos\Third Party\Lucid Editor\Runtime\Attributes\TitleHeaderAttribute.cs" />
@@ -97,6 +98,7 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\EnvMapAnimator.cs" />
     <Compile Include="Assets\Scripts\Vase.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_UiFrameRateCounter.cs" />
+    <Compile Include="Assets\Scripts\DialogueTrigger.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\CameraController.cs" />
     <Compile Include="Assets\Scripts\LevelManager.cs" />
     <Compile Include="Assets\Prefabs\Cainos\Third Party\Lucid Editor\Runtime\Attributes\BoxGroupAttribute.cs" />
@@ -151,9 +153,11 @@
     <Compile Include="Assets\Scripts\Box_txt_handling.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexJitter.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventHandler.cs" />
+    <Compile Include="Assets\Scripts\StopMotion.cs" />
     <Compile Include="Assets\Scripts\EnemyShoot3.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_B.cs" />
     <Compile Include="Assets\Prefabs\Cainos\Third Party\Lucid Editor\Runtime\Attributes\HideLabelAttribute.cs" />
+    <Compile Include="Assets\Scripts\DialogueBoxAnimation.cs" />
     <Compile Include="Assets\Scripts\Destructible_platforms.cs" />
     <Compile Include="Assets\Scripts\smallHealth3.cs" />
     <Compile Include="Assets\Scripts\ResPointsMovement.cs" />
@@ -161,7 +165,9 @@
     <Compile Include="Assets\Prefabs\Cainos\Third Party\Lucid Editor\Runtime\Attributes\SectionHeaderAttribute.cs" />
     <Compile Include="Assets\Scripts\HiddenSpikes.cs" />
     <Compile Include="Assets\Scripts\fireball3.cs" />
+    <Compile Include="Assets\Scripts\FireBlock3.cs" />
     <Compile Include="Assets\Prefabs\Cainos\Third Party\Lucid Editor\Runtime\Attributes\DisableInEditModeAttribute.cs" />
+    <Compile Include="Assets\Scripts\DialogueBoxAnimationLevel2.cs" />
     <Compile Include="Assets\Scripts\Health3.cs" />
     <Compile Include="Assets\Prefabs\Cainos\Common\Script\Utils\SecondOrderDynamics.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\DropdownSample.cs" />
@@ -170,12 +176,13 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexColorCycler.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TeleType.cs" />
     <Compile Include="Assets\Prefabs\Cainos\Third Party\Lucid Editor\Runtime\Attributes\RequiredAttribute.cs" />
+    <Compile Include="Assets\Scripts\DialogueText.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexZoom.cs" />
     <Compile Include="Assets\Scripts\CameraController3.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
     <Compile Include="Assets\Prefabs\Cainos\Third Party\Lucid Editor\Runtime\Attributes\FoldoutGroupAttribute.cs" />
     <Compile Include="Assets\Prefabs\Cainos\Third Party\Lucid Editor\Runtime\Attributes\DisableLucidEditorAttribute.cs" />
-    <Compile Include="Assets\Scripts\FireBlock3.cs" />
+    <Compile Include="Assets\CameraZoomTrigger.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Prefabs\Cainos\Third Party\Lucid Editor\License.txt" />

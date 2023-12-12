@@ -12,7 +12,7 @@ public class PlayermotionLevel2 : MonoBehaviour
     float verticalInput;
     private Rigidbody2D body;//So this body that i want to make it move is an Rigid body 2D.
     // Rigidbody class inherites from componant class.
-    private Animator anim;
+    public static Animator animLevel2;
     private bool grounded=false;
     Vector3 res_point;
 
@@ -29,7 +29,7 @@ public class PlayermotionLevel2 : MonoBehaviour
         body = GetComponent<Rigidbody2D>();
         //So we have body that has rigidbody properties and we want to get those componentes.
 
-        anim = GetComponent<Animator>();
+        animLevel2 = GetComponent<Animator>();
         res_point = transform.position; // the point that main charcter starts from.
     }
     private void OnTriggerEnter2D(Collider2D collision)
@@ -76,14 +76,14 @@ public class PlayermotionLevel2 : MonoBehaviour
         if (Input.GetKey(KeyCode.R))
         {
             body.velocity = new Vector2(horizontalInput * 10, body.velocity.y);
-            anim.SetBool("Run", horizontalInput != 0);
-            anim.SetBool("Walking", false);
+            animLevel2.SetBool("Run", horizontalInput != 0);
+            animLevel2.SetBool("Walking", false);
         }
         else
         {
             body.velocity = new Vector2(horizontalInput * 5, body.velocity.y);
-            anim.SetBool("Walking", horizontalInput != 0);
-            anim.SetBool("Run", false);
+            animLevel2.SetBool("Walking", horizontalInput != 0);
+            animLevel2.SetBool("Run", false);
 
 
         }
@@ -118,11 +118,11 @@ public class PlayermotionLevel2 : MonoBehaviour
     {
         if (hasWeapon && Input.GetKeyDown(KeyCode.Q))
         {
-            anim.SetBool("Attack", true);
+            animLevel2.SetBool("Attack", true);
         }
         else
         {
-            anim.SetBool("Attack", false);
+            animLevel2.SetBool("Attack", false);
         }
     }
 
@@ -159,10 +159,8 @@ public class PlayermotionLevel2 : MonoBehaviour
 
         Attack();
 
-        anim.SetBool("Grounded", grounded);
+        animLevel2.SetBool("Grounded", grounded);
     }
-
-
 }
 
 

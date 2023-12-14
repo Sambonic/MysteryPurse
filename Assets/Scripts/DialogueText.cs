@@ -6,13 +6,7 @@ using TMPro;
 
 public class DialogueText : MonoBehaviour
 {
-    public string[] sentences = {
-        "Hello, welcome to Unity!",
-        "This is a sample sentence.",
-        "Text can be swapped dynamically.",
-        "You can customize this for your needs.",
-        "Enjoy experimenting with Unity!"
-    };
+    public string[] sentences;
 
     public TextMeshProUGUI textMeshProComponent;
     public Button nextButton;
@@ -22,8 +16,13 @@ public class DialogueText : MonoBehaviour
     void Start()
     {
         FindObjectOfType<StopMotion>().StopMovement();
+        DialogueZoom dialogueZoom = FindObjectOfType<DialogueZoom>();
+        if (dialogueZoom != null)
+        {
+            dialogueZoom.Update();
+        }
         nextButton.onClick.AddListener(OnNextButtonClick);
-        DisplaySentence();
+        OnNextButtonClick();
     }
 
     void OnNextButtonClick()
@@ -55,24 +54,6 @@ public class DialogueText : MonoBehaviour
         {
             textMeshProComponent.text += letter;
             yield return new WaitForSeconds(typingSpeed);
-        }
-    }
-
-    void DisplaySentence()
-    {
-        // Change the text to the current sentence
-        ChangeTextValue(sentences[currentSentenceIndex]);
-    }
-
-    void ChangeTextValue(string newText)
-    {
-        if (textMeshProComponent != null)
-        {
-            textMeshProComponent.text = newText;
-        }
-        else
-        {
-            Debug.LogError("TextMeshProUGUI component is not assigned!");
         }
     }
 }

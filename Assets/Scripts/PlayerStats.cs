@@ -4,22 +4,24 @@ using UnityEngine;
 
 public class PlayerStats : MonoBehaviour
 {
-    public int health = 6;
+    public int health = 100;
     public int lives = 3;
+  
+    private SpriteRenderer spriteRenderer;
+    private int new_health;
+
     private float flickerTime = 0f;
     public float flickerDuration = 0.1f;
-    private SpriteRenderer spriteRenderer;
+    
     public bool isImmune = false;
     private float immunityTime = 0f;
     public float immunityDuration = 1.5f;
-    public int coinsCollected = 0;
-    // Start is called before the first frame update
+
     void Start()
     {
         spriteRenderer = this.gameObject.GetComponent<SpriteRenderer>();
     }
 
-    // Update is called once per frame
     void Update()
     {
         if (this.isImmune == true) {
@@ -30,7 +32,7 @@ public class PlayerStats : MonoBehaviour
 
                 this.isImmune = false;
                 this.spriteRenderer.enabled = true;
-                //Debug. Log("Immunity has ended");
+                Debug. Log("Immunity has ended");
             }
         }
     }
@@ -53,37 +55,59 @@ public class PlayerStats : MonoBehaviour
     }
     public void BigHeal()
     {
-        this.health += 4;
-        this.health = Mathf.Min(this.health, 6);
-        Debug.Log("Added 4 Health. Current health is " + this.health.ToString());
+        this.health += 40;
+        this.health = Mathf.Min(this.health, 100);
+        FindObjectOfType<HealthBar>().ChangeHealthBarImage(this.health);
+        Debug.Log("Added "+ 40 +" Health. Current health is " + this.health.ToString());
     }
     public void SmallHeal()
     {
-        this.health += 2;
-        this.health = Mathf.Min(this.health, 6);
-        Debug.Log("Added 2 Health. Current health is " + this.health.ToString());
+        this.health += 20;
+        this.health = Mathf.Min(this.health, 100);
+        FindObjectOfType<HealthBar>().ChangeHealthBarImage(this.health);
+        Debug.Log("Added 20 Health. Current health is " + this.health.ToString());
     }
     public void TakeDamage(int damage)
     {
         if (this.isImmune == false)
         {
             this.health = this.health - damage;
+            
             if (this.health < 0)
                 this.health = 0;
+            FindObjectOfType<HealthBar>().ChangeHealthBarImage(this.health);
             if (this.lives > 0 && this.health == 0)
             {
-                FindObjectOfType<LevelManager>().RespawnPlayer();
-                FindObjectOfType<HiddenSpikes>().Hide();
-                FindObjectOfType<WeaponFall>().Freeze();
-                FindObjectOfType<WeaponFall>().PositionReset();
-                this.health = 6;
+                LevelManager levelManager = FindObjectOfType<LevelManager>();
+                HiddenSpikes hiddenSpikes = FindObjectOfType<HiddenSpikes>();
+                WeaponFall weaponFall = FindObjectOfType<WeaponFall>();
+
+       
+                if (levelManager != null)
+                {
+                    levelManager.RespawnPlayer();
+                }
+
+                if (hiddenSpikes != null)
+                {
+                    hiddenSpikes.Hide();
+                }
+
+                if (weaponFall != null)
+                {
+                    weaponFall.Freeze();
+                    weaponFall.PositionReset();
+                }
+                this.health = 100;
+                FindObjectOfType<HealthBar>().ChangeHealthBarImage(this.health);
                 this.lives--;
             }
+
             else if (this.lives == 0 && this.health == 0)
             {
                 Debug.Log("Gameover");
                 Destroy(this.gameObject);
-                // ADD Gameover splash screen later
+                //FindObjectOfType<NavigationController>().GoToGameOverScene();
             }
             Debug.Log("Player Health:" + this.health.ToString());
             Debug.Log("Player Lives:" + this.lives.ToString());

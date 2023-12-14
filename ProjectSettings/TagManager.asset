@@ -28,6 +28,12 @@ TagManager:
   - itemTag
   - FireBlock
   - Enemy
+  - Dog
+  - sandal
+  - Exit
+  - Entrance
+  - Arena
+  - Chest
   layers:
   - Default
   - TransparentFX
@@ -82,4 +88,7 @@ TagManager:
     locked: 0
   - name: Player
     uniqueID: 4019709129
+    locked: 0
+  - name: Arena
+    uniqueID: 963026653
     locked: 0

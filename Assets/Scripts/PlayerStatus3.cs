@@ -22,11 +22,21 @@ public class PlayerStatus3 : MonoBehaviour
 
     private bool isFacingRight = true; // Flag to track the character's facing direction
 
-    public HealthBar3 healthbar;
+    //public HealthBar3 healthbar;
+    public int health = 100;
+    public int lives = 3;
     public int points = 0;
 
     public Text scoreText;
     public Rigidbody2D Fireblock;
+
+    //For the Letter
+    [SerializeField] GameObject loveletter;
+    private bool letterOpened = false;
+    public string inputFieldOne;
+    public string inputFieldTwo;
+    public string inputFieldThree;
+    public string inputFieldFour;
 
 
     private void Start()
@@ -35,7 +45,7 @@ public class PlayerStatus3 : MonoBehaviour
         Fireblock.isKinematic = true;
         playerAnimation = GetComponent<Animator>();
         respawnPoint = transform.position;
-        scoreText.text = "Score: "+points;
+       // scoreText.text = "Score: "+ points;
     }
 
     private void Update()
@@ -74,11 +84,17 @@ public class PlayerStatus3 : MonoBehaviour
         playerAnimation.SetBool("OnGround", isTouchingGround);
 
         fallDetector.transform.position = new Vector2(transform.position.x, fallDetector.transform.position.y); //fall detector position will be changed by the players x axis only
-        if (Health3.totalHealth <= 0.0f)
+        if (this.health <= 0 && lives > 0)
         {
             // Destroy(this.gameObject);
             transform.position = respawnPoint;
-            resetHealth();
+            this.health = 100;
+            FindObjectOfType<HealthBar>().ChangeHealthBarImage(this.health);
+            this.lives--;
+        }
+        else if(health <= 0.0f && lives <= 0)
+        {
+            Destroy(this.gameObject);
         }
 
         if (points >= 27)
@@ -90,6 +106,8 @@ public class PlayerStatus3 : MonoBehaviour
                 Destroy(box);
             }
         }
+
+
     }
 
     //method detects collision when 1 object enters another object's collider
@@ -97,6 +115,7 @@ public class PlayerStatus3 : MonoBehaviour
     {
         if (collision.tag == "fallDetector")
         {
+            TakeDamage(100);
             transform.position = respawnPoint; // respawn the player to the beginning
         }
         if (collision.tag == "checkpoint")
@@ -108,52 +127,101 @@ public class PlayerStatus3 : MonoBehaviour
         {
             Fireblock.isKinematic = false;
         }
+        if (collision.tag == "itemTag")
+        {
+            TakeDamage(20);
+        }
 
     }
     private void OnTriggerStay2D(Collider2D collision)
     {
-        if (collision.tag == "itemTag")
-        {
-            healthbar.Damage(0.002f);
-        }
-
          if (collision.tag == "Ladder" && Input.GetButton("Vertical"))
          {
              rb.velocity = new Vector2(transform.position.x, 3f);
          }
 
-         if(collision.tag == "smallHealth" && Input.GetButton("Submit"))
-        {
-            healthbar.IncreaseHealth();
-        }
-
          if(collision.tag == "Fire")
         {
-            healthbar.Damage(0.003f);
+            TakeDamage(30);
+        }
+
+         if(collision.tag == "Chest" && Input.GetButton("Submit"))
+        {
+            
+            letterOpened = true;
+            loveletter.SetActive(true);
+            Time.timeScale = 0f;
         }
 
     }
 
-    public void damage()
+    public void BigHeal()
     {
-        healthbar.Damage(0.003f);
+        health += 40;
+        health = Mathf.Min(health, 100);
+        FindObjectOfType<HealthBar>().ChangeHealthBarImage(health);
+        Debug.Log("Added " + 40 + " Health. Current health is " + health.ToString());
     }
-    public void damage(float damage)
+
+    public void SmallHeal()
     {
-        healthbar.Damage(damage);
+        health += 20;
+        health = Mathf.Min(health, 100);
+        FindObjectOfType<HealthBar>().ChangeHealthBarImage(health);
+        Debug.Log("Added 20 Health. Current health is " + health.ToString());
     }
-    public void increaseHealth()
+
+    public void TakeDamage(int damage)
     {
-        healthbar.IncreaseHealth();
+        this.health = this.health - damage;
+
+        if (this.health < 0)
+            this.health = 0;
+        FindObjectOfType<HealthBar>().ChangeHealthBarImage(this.health);
+        if (this.lives > 0 && this.health == 0)
+        {
+            transform.position = respawnPoint;
+            this.health = 100;
+            FindObjectOfType<HealthBar>().ChangeHealthBarImage(this.health);
+            this.lives--;
+        }
+
+        else if (this.lives == 0 && this.health == 0)
+        {
+            Debug.Log("Gameover");
+            Destroy(this.gameObject);
+            //FindObjectOfType<NavigationController>().GoToGameOverScene();
+        }
+        Debug.Log("Player Health:" + this.health.ToString());
+        Debug.Log("Player Lives:" + this.lives.ToString());
+        
     }
-    public void increaseHealth(float amount)
+    public void assignOne(string s)
     {
-        healthbar.IncreaseHealth(amount);
+        inputFieldOne = s;
     }
-    private void resetHealth()
+    public void assignTwo(string t)
     {
-        healthbar.resetHealth();
+        inputFieldTwo = t;
     }
+    public void assignThree(string s)
+    {
+        inputFieldThree = s;
+    }
+    public void assignFour(string s)
+    {
+        inputFieldFour = s;
+        Debug.Log(inputFieldFour);
+    }
+
+    public void closeLetter()
+    {
+        FindObjectOfType<NavigationController>().GoToLevelFourScene();
+        letterOpened = false;
+        loveletter.SetActive(false);
+        Time.timeScale = 1f;
+    }
+
 
 
     void Flip()
@@ -173,7 +241,7 @@ public class PlayerStatus3 : MonoBehaviour
     public void addPoints(int p)
     {
         points += p;
-        scoreText.text = "Score: " + points;
+      //  scoreText.text = "Score: " + points;
         Debug.Log("Points added");
     }
 }

@@ -34,20 +34,9 @@ public class PlayermotionLevel2 : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.tag == "Finish")
-        {
-            Destroy(collision.gameObject);
-        }
-        else if (collision.tag == "Shield")
-        {
-            Destroy(collision.gameObject);
-        }
-        else if (collision.tag == "Pin Sword")
-        {
-            Destroy(collision.gameObject);
-            hasWeapon = true;
-        }
-        else if (collision.tag == "Big Health")
+
+      
+        if (collision.tag == "Big Health")
         {
             Destroy(collision.gameObject);
             FindObjectOfType<PlayerStats>().BigHeal();
@@ -61,11 +50,23 @@ public class PlayermotionLevel2 : MonoBehaviour
         {
             Destroy(collision.gameObject);
         }
-        else if (collision.tag == "Ladder" && Input.GetKeyDown(KeyCode.W))
+        
+    }
+
+    private void OnTriggerStay2D(Collider2D collision)
+    {
+        if (collision.tag == "Ladder" && Input.GetButton("Vertical"))
         {
-            body.velocity = new Vector2(transform.position.x, 3f);
+            float verticalInput = Input.GetAxis("Vertical");
+            body.velocity = new Vector2(body.velocity.x, verticalInput * 3f);
+        }
+        else
+        {
+            body.gravityScale = 1f;
         }
     }
+
+
 
     private void Move()
     {

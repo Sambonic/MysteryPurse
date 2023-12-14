@@ -6,18 +6,8 @@ public class EnemyController : MonoBehaviour
 {
     public bool isFacingRight = false;
     public float maxSpeed = 3f;
-    public int damage = 3;
-    // Start is called before the first frame update
-    void Start()
-    {
+    public int damage = 30;
 
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
     public void Flip()
     {
         isFacingRight = !isFacingRight;
@@ -30,7 +20,18 @@ public class EnemyController : MonoBehaviour
     {
         if (other.tag == "Player")
         {
-            FindObjectOfType<PlayerStats>().TakeDamage(damage);
+            PlayerStatus3 player3 = FindObjectOfType<PlayerStatus3>();
+            PlayerStats player2 = FindObjectOfType<PlayerStats>();
+            if (player3 != null)
+            {
+                player3.TakeDamage(damage);
+                Debug.Log("Player 3 took damage");
+            }
+            else if( player2 != null)
+            {
+                player2.TakeDamage(damage);
+                Debug.Log("Player 2 took damage");
+            }
         }
     }
 }

@@ -1,0 +1,101 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &3514935389705516711
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 8149930496578109788, guid: c0cec561a7ccd6244ab19ac9a27da322, type: 3}
+      propertyPath: sentences.Array.size
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 8149930496578109788, guid: c0cec561a7ccd6244ab19ac9a27da322, type: 3}
+      propertyPath: sentences.Array.data[0]
+      value: Nice nice, bone good
+      objectReference: {fileID: 0}
+    - target: {fileID: 8149930496578109788, guid: c0cec561a7ccd6244ab19ac9a27da322, type: 3}
+      propertyPath: sentences.Array.data[1]
+      value: You've been woofing around and have no idea of the disaster
+      objectReference: {fileID: 0}
+    - target: {fileID: 8149930496578109788, guid: c0cec561a7ccd6244ab19ac9a27da322, type: 3}
+      propertyPath: sentences.Array.data[2]
+      value: Your god awful and honestly boring photo album has been missing some
+        pics
+      objectReference: {fileID: 0}
+    - target: {fileID: 8149930496578109788, guid: c0cec561a7ccd6244ab19ac9a27da322, type: 3}
+      propertyPath: sentences.Array.data[3]
+      value: Know where the bone was? you have to break the olla next to it
+      objectReference: {fileID: 0}
+    - target: {fileID: 8149930496578109788, guid: c0cec561a7ccd6244ab19ac9a27da322, type: 3}
+      propertyPath: sentences.Array.data[4]
+      value: Look for ollal scattered across the level
+      objectReference: {fileID: 0}
+    - target: {fileID: 8149930496578109788, guid: c0cec561a7ccd6244ab19ac9a27da322, type: 3}
+      propertyPath: sentences.Array.data[5]
+      value: Jump on them 4 times, and you may or may not find the pics depending
+        on your miserable luck
+      objectReference: {fileID: 0}
+    - target: {fileID: 8149930496578109788, guid: c0cec561a7ccd6244ab19ac9a27da322, type: 3}
+      propertyPath: sentences.Array.data[6]
+      value: Also, Ghost Pin heard you were around the hood
+      objectReference: {fileID: 0}
+    - target: {fileID: 8149930496578109788, guid: c0cec561a7ccd6244ab19ac9a27da322, type: 3}
+      propertyPath: sentences.Array.data[7]
+      value: Good luck running away because you can neither fight nor protect yourself
+      objectReference: {fileID: 0}
+    - target: {fileID: 8149930496578109788, guid: c0cec561a7ccd6244ab19ac9a27da322, type: 3}
+      propertyPath: sentences.Array.data[8]
+      value: Now, woof off
+      objectReference: {fileID: 0}
+    - target: {fileID: 8149930497452086592, guid: c0cec561a7ccd6244ab19ac9a27da322, type: 3}
+      propertyPath: m_Name
+      value: DialogueTriggerL2CS2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8149930497452086598, guid: c0cec561a7ccd6244ab19ac9a27da322, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8149930497452086598, guid: c0cec561a7ccd6244ab19ac9a27da322, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 6.17
+      objectReference: {fileID: 0}
+    - target: {fileID: 8149930497452086598, guid: c0cec561a7ccd6244ab19ac9a27da322, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.94
+      objectReference: {fileID: 0}
+    - target: {fileID: 8149930497452086598, guid: c0cec561a7ccd6244ab19ac9a27da322, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.6172757
+      objectReference: {fileID: 0}
+    - target: {fileID: 8149930497452086598, guid: c0cec561a7ccd6244ab19ac9a27da322, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8149930497452086598, guid: c0cec561a7ccd6244ab19ac9a27da322, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8149930497452086598, guid: c0cec561a7ccd6244ab19ac9a27da322, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8149930497452086598, guid: c0cec561a7ccd6244ab19ac9a27da322, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8149930497452086598, guid: c0cec561a7ccd6244ab19ac9a27da322, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8149930497452086598, guid: c0cec561a7ccd6244ab19ac9a27da322, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8149930497452086598, guid: c0cec561a7ccd6244ab19ac9a27da322, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c0cec561a7ccd6244ab19ac9a27da322, type: 3}

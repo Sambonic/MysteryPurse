@@ -1,3 +1,4 @@
+using Newtonsoft.Json.Bson;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -6,6 +7,7 @@ using UnityEngine.UIElements;
 
 public class Playermotion : MonoBehaviour
 {
+    
     /*[SerializeField]*/
     float spead;
     // SerializeField means that i can change this value from unity editor.
@@ -13,7 +15,7 @@ public class Playermotion : MonoBehaviour
     float verticalInput;
     private Rigidbody2D body;//So this body that i want to make it move is an Rigid body 2D.
     // Rigidbody class inherites from componant class.
-    public Animator anim;
+    public static Animator anim;
     public bool grounded = false;
     public bool is_protected = false;
     public static bool attacking = false;
@@ -27,6 +29,7 @@ public class Playermotion : MonoBehaviour
 
         anim = GetComponent<Animator>();
         res_point = transform.position; // the point that main charcter starts from.
+
     }
 
 
@@ -73,6 +76,7 @@ public class Playermotion : MonoBehaviour
         {
             body.velocity = new Vector2(body.velocity.x, 10);
             grounded = false;
+           
         }
     }
 
@@ -107,7 +111,13 @@ public class Playermotion : MonoBehaviour
         }
     }
 
-
+    public void check_puzzle_answer()
+    {
+        if(Puzzle_check.Wrong_Answer)
+        {
+            Destroy(gameObject);
+        }
+    }
     public void Shielding()
     {
         is_protected = false;
@@ -139,7 +149,7 @@ public class Playermotion : MonoBehaviour
         // mascara = GameObject.FindGameObjectWithTag("Finish");
         //Debug.Log(mascara.transform);
 
-
+       
 
         Move();
 
@@ -154,6 +164,22 @@ public class Playermotion : MonoBehaviour
         Attack();
 
         anim.SetBool("Grounded", grounded);
+
+        check_puzzle_answer();
+
+
+        if (Audio_stop_player.stop_the_player || Audio_with_puase.stop_the_player || Audio_with_puase1.stop_the_player)
+        {
+            body.velocity = new Vector2(0,0);
+            transform.localScale = new Vector3(-1, 1, 1);
+            anim.enabled = false;
+            print("Now the player cannot move");
+        }
+        else
+        {
+            anim.enabled = true ;
+
+        }
     }
 
 }

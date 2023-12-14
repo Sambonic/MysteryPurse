@@ -27,10 +27,14 @@ MonoBehaviour:
     width: 1536
     height: 780.8
   m_ShowMode: 4
+<<<<<<< HEAD
   m_Title: Scene
 >>>>>>> level-2
+=======
+  m_Title: Hierarchy
+>>>>>>> Integrating-3-witth-rest
   m_RootView: {fileID: 6}
-  m_MinSize: {x: 875, y: 371}
+  m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 0
 --- !u!114 &2
@@ -65,8 +69,12 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
+<<<<<<< HEAD
   controlID: 105
 >>>>>>> level-2
+=======
+  controlID: 115
+>>>>>>> Integrating-3-witth-rest
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -83,6 +91,7 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 571.2
     y: 0
     width: 305.59998
@@ -92,13 +101,22 @@ MonoBehaviour:
   m_ActualView: {fileID: 14}
 =======
     x: 1173.6
+=======
+    x: 1150.4
+>>>>>>> Integrating-3-witth-rest
     y: 0
-    width: 362.40002
+    width: 385.59998
     height: 730.8
+<<<<<<< HEAD
   m_MinSize: {x: 275, y: 50}
   m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 13}
 >>>>>>> level-2
+=======
+  m_MinSize: {x: 276, y: 71}
+  m_MaxSize: {x: 4001, y: 4021}
+  m_ActualView: {fileID: 14}
+>>>>>>> Integrating-3-witth-rest
   m_Panes:
   - {fileID: 14}
   m_Selected: 0
@@ -121,6 +139,7 @@ MonoBehaviour:
     x: 0
     y: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 140.8
     height: 393.6
   m_MinSize: {x: 201, y: 221}
@@ -133,6 +152,13 @@ MonoBehaviour:
   m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 14}
 >>>>>>> level-2
+=======
+    width: 369.6
+    height: 432.8
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
+  m_ActualView: {fileID: 15}
+>>>>>>> Integrating-3-witth-rest
   m_Panes:
   - {fileID: 15}
   m_Selected: 0
@@ -147,12 +173,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: ProjectBrowser
+  m_Name: ConsoleWindow
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
     serializedVersion: 2
     x: 0
+<<<<<<< HEAD
 <<<<<<< HEAD
     y: 393.6
     width: 571.2
@@ -176,6 +203,19 @@ MonoBehaviour:
 >>>>>>> level-2
   m_Selected: 0
   m_LastSelected: 1
+=======
+    y: 432.8
+    width: 1150.4
+    height: 298
+  m_MinSize: {x: 101, y: 121}
+  m_MaxSize: {x: 4001, y: 4021}
+  m_ActualView: {fileID: 18}
+  m_Panes:
+  - {fileID: 13}
+  - {fileID: 18}
+  m_Selected: 1
+  m_LastSelected: 0
+>>>>>>> Integrating-3-witth-rest
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -277,6 +317,7 @@ MonoBehaviour:
     x: 0
     y: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 571.2
     height: 665.2
   m_MinSize: {x: 200, y: 200}
@@ -285,12 +326,19 @@ MonoBehaviour:
   controlID: 105
 =======
     width: 1173.6
+=======
+    width: 1150.4
+>>>>>>> Integrating-3-witth-rest
     height: 730.8
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
+<<<<<<< HEAD
   controlID: 106
 >>>>>>> level-2
+=======
+  controlID: 116
+>>>>>>> Integrating-3-witth-rest
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -311,6 +359,7 @@ MonoBehaviour:
     x: 0
     y: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 571.2
     height: 393.6
   m_MinSize: {x: 200, y: 100}
@@ -325,6 +374,14 @@ MonoBehaviour:
   vertical: 0
   controlID: 107
 >>>>>>> level-2
+=======
+    width: 1150.4
+    height: 432.8
+  m_MinSize: {x: 200, y: 100}
+  m_MaxSize: {x: 16192, y: 8096}
+  vertical: 0
+  controlID: 117
+>>>>>>> Integrating-3-witth-rest
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -340,6 +397,7 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 140.8
     y: 0
 <<<<<<< HEAD
@@ -349,6 +407,12 @@ MonoBehaviour:
     width: 884
     height: 457.6
 >>>>>>> level-2
+=======
+    x: 369.6
+    y: 0
+    width: 780.80005
+    height: 432.8
+>>>>>>> Integrating-3-witth-rest
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 16}
@@ -378,16 +442,24 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 793.60004
     y: 124
     width: 421.99997
     height: 372.6
+=======
+    x: 379.2
+    y: 73.6
+    width: 793.2
+    height: 411.8
+>>>>>>> Integrating-3-witth-rest
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
     m_SaveData: []
   m_ViewTransforms:
     m_KeySerializationHelper:
+<<<<<<< HEAD
     - {fileID: -4111080980216425432, guid: cf93f4479f8936b42a8aa094799850b3, type: 2}
     m_ValueSerializationHelper:
     - e00: 0.5569485
@@ -398,6 +470,35 @@ MonoBehaviour:
       e11: 0.5569485
       e12: 0
       e13: 70.06616
+=======
+    - {fileID: -4864787183768447737, guid: dcd4bdda63ac39048a925d68c15190c6, type: 2}
+    - {fileID: -4111080980216425432, guid: cf93f4479f8936b42a8aa094799850b3, type: 2}
+    m_ValueSerializationHelper:
+    - e00: 0.5606913
+      e01: 0
+      e02: 0
+      e03: 36.99706
+      e10: 0
+      e11: 0.5606913
+      e12: 0
+      e13: 174.1036
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    - e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+>>>>>>> Integrating-3-witth-rest
       e20: 0
       e21: 0
       e22: 1
@@ -419,7 +520,11 @@ MonoBehaviour:
   m_MiniTool: 0
   m_LockTracker:
     m_IsLocked: 0
+<<<<<<< HEAD
   m_CurrentEditor: 1
+=======
+  m_CurrentEditor: 0
+>>>>>>> Integrating-3-witth-rest
   m_LayerEditor:
     m_SelectedLayerIndex: 0
 --- !u!114 &13
@@ -449,16 +554,22 @@ MonoBehaviour:
     height: 250.6
 =======
     x: 0
+<<<<<<< HEAD
     y: 531.2
     width: 1172.6
     height: 252.19998
 >>>>>>> level-2
+=======
+    y: 506.4
+    width: 1149.4
+    height: 277
+>>>>>>> Integrating-3-witth-rest
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
     m_SaveData: []
   m_SearchFilter:
-    m_NameFilter: 
+    m_NameFilter: BigH
     m_ClassNames: []
     m_AssetLabels: []
     m_AssetBundleNames: []
@@ -470,18 +581,19 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets
+    - Assets/Scripts
     m_Globs: []
-    m_OriginalText: 
+    m_OriginalText: BigH
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets
+  - Assets/Scripts
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\first_8z19ddk\Desktop\Unity Project Work\MysteryPurse
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
+<<<<<<< HEAD
 <<<<<<< HEAD
     scrollPos: {x: 0, y: 89.399994}
     m_SelectedIDs: 72790000
@@ -493,6 +605,12 @@ MonoBehaviour:
     m_LastClickedID: 28062
     m_ExpandedIDs: 000000009e6d00001e6e0000246e00002e6e0000306e00005c9e0000a6fa000000ca9a3b
 >>>>>>> level-2
+=======
+    scrollPos: {x: 0, y: 159}
+    m_SelectedIDs: e0800000
+    m_LastClickedID: 32992
+    m_ExpandedIDs: 00000000b4800000d0800000e2800000e4800000a481000000ca9a3b
+>>>>>>> Integrating-3-witth-rest
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -521,10 +639,14 @@ MonoBehaviour:
     m_SelectedIDs: 
     m_LastClickedID: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_ExpandedIDs: 0000000054790000
 =======
     m_ExpandedIDs: 000000009e6d0000
 >>>>>>> level-2
+=======
+    m_ExpandedIDs: 00000000b4800000
+>>>>>>> Integrating-3-witth-rest
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -552,7 +674,7 @@ MonoBehaviour:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 1
-    m_ExpandedInstanceIDs: c6230000f29a0000
+    m_ExpandedInstanceIDs: c6230000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -605,14 +727,18 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 1223.2001
     y: 124
     width: 304.59998
     height: 644.2
 =======
     x: 1173.6
+=======
+    x: 1150.4
+>>>>>>> Integrating-3-witth-rest
     y: 73.6
-    width: 361.40002
+    width: 384.59998
     height: 709.8
 >>>>>>> level-2
   m_ViewDataDictionary: {fileID: 0}
@@ -660,15 +786,21 @@ MonoBehaviour:
 =======
     x: 0
     y: 73.6
+<<<<<<< HEAD
     width: 288.6
     height: 436.6
 >>>>>>> level-2
+=======
+    width: 368.6
+    height: 411.8
+>>>>>>> Integrating-3-witth-rest
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
     m_SaveData: []
   m_SceneHierarchy:
     m_TreeViewState:
+<<<<<<< HEAD
 <<<<<<< HEAD
       scrollPos: {x: 0, y: 128.4}
       m_SelectedIDs: da670000
@@ -684,13 +816,27 @@ MonoBehaviour:
         m_UserAcceptedRename: 0
         m_Name: Fire Barrel
         m_OriginalName: Fire Barrel
+=======
+      scrollPos: {x: 0, y: 32}
+      m_SelectedIDs: b8f90300
+      m_LastClickedID: 260536
+      m_ExpandedIDs: 7007ffffdc15ffff4026ffff7c57ffff1abaffffa4baffffb4dbffff96deffff52e1ffff84f8ffff5aef0200faef020028f10200a0f20200f0f20200
+      m_RenameOverlay:
+        m_UserAcceptedRename: 0
+        m_Name: Player
+        m_OriginalName: Player
+>>>>>>> Integrating-3-witth-rest
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
+<<<<<<< HEAD
         m_UserData: 28076
+=======
+        m_UserData: 260536
+>>>>>>> Integrating-3-witth-rest
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
         m_OriginalEventType: 0
@@ -724,6 +870,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 792.8
     y: 124
     width: 428.40002
@@ -734,6 +881,12 @@ MonoBehaviour:
     width: 882
     height: 436.6
 >>>>>>> level-2
+=======
+    x: 369.6
+    y: 73.6
+    width: 778.80005
+    height: 411.8
+>>>>>>> Integrating-3-witth-rest
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -743,8 +896,8 @@ MonoBehaviour:
       floating: 0
       collapsed: 0
       displayed: 1
-      snapOffset: {x: -100, y: -25.600006}
-      snapOffsetDelta: {x: 0, y: 0}
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: -100, y: -25.600006}
       snapCorner: 3
       id: Tool Settings
       index: 0
@@ -765,7 +918,7 @@ MonoBehaviour:
       floating: 0
       collapsed: 0
       displayed: 1
-      snapOffset: {x: 0, y: 24.8}
+      snapOffset: {x: 0, y: 0}
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
       id: unity-scene-view-toolbar
@@ -958,6 +1111,7 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_Position:
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_Target: {x: 25.682842, y: 25.343018, z: -0.10693977}
     speed: 2
     m_Value: {x: 25.657255, y: 25.473553, z: -0.11047759}
@@ -966,6 +1120,11 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 9.361863, y: 0.7743275, z: 0.27817544}
 >>>>>>> level-2
+=======
+    m_Target: {x: -6.41, y: -0.33000004, z: 0}
+    speed: 2
+    m_Value: {x: -6.41, y: -0.33000004, z: 0}
+>>>>>>> Integrating-3-witth-rest
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1017,6 +1176,7 @@ MonoBehaviour:
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_Target: 7.5080395
     speed: 2
     m_Value: 7.8618217
@@ -1025,6 +1185,11 @@ MonoBehaviour:
     speed: 2
     m_Value: 8.93724
 >>>>>>> level-2
+=======
+    m_Target: 1.8129532
+    speed: 2
+    m_Value: 1.8129535
+>>>>>>> Integrating-3-witth-rest
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -1069,6 +1234,7 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 290.4
     y: 73.6
 <<<<<<< HEAD
@@ -1078,6 +1244,12 @@ MonoBehaviour:
     width: 882
     height: 436.6
 >>>>>>> level-2
+=======
+    x: 369.6
+    y: 73.6
+    width: 778.80005
+    height: 411.8
+>>>>>>> Integrating-3-witth-rest
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -1089,10 +1261,14 @@ MonoBehaviour:
   m_TargetDisplay: 0
   m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_TargetSize: {x: 879.6, y: 386}
 =======
   m_TargetSize: {x: 882, y: 415.6}
 >>>>>>> level-2
+=======
+  m_TargetSize: {x: 778.80005, y: 390.8}
+>>>>>>> Integrating-3-witth-rest
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
   m_RenderIMGUI: 1
@@ -1108,6 +1284,7 @@ MonoBehaviour:
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_HBaseRangeMin: -351.84
     m_HBaseRangeMax: 351.84
     m_VBaseRangeMin: -154.40001
@@ -1118,6 +1295,12 @@ MonoBehaviour:
     m_VBaseRangeMin: -166.24
     m_VBaseRangeMax: 166.24
 >>>>>>> level-2
+=======
+    m_HBaseRangeMin: -311.52002
+    m_HBaseRangeMax: 311.52002
+    m_VBaseRangeMin: -156.31999
+    m_VBaseRangeMax: 156.31999
+>>>>>>> Integrating-3-witth-rest
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -1136,6 +1319,7 @@ MonoBehaviour:
       x: 0
       y: 21
 <<<<<<< HEAD
+<<<<<<< HEAD
       width: 879.6
       height: 386
     m_Scale: {x: 1, y: 1}
@@ -1146,12 +1330,19 @@ MonoBehaviour:
     m_Scale: {x: 1, y: 1}
     m_Translation: {x: 441, y: 207.8}
 >>>>>>> level-2
+=======
+      width: 778.80005
+      height: 390.8
+    m_Scale: {x: 1, y: 1}
+    m_Translation: {x: 389.40002, y: 195.4}
+>>>>>>> Integrating-3-witth-rest
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
+<<<<<<< HEAD
 <<<<<<< HEAD
       x: -439.8
       y: -193
@@ -1169,6 +1360,15 @@ MonoBehaviour:
   m_defaultScale: 1
   m_LastWindowPixelSize: {x: 1102.5, y: 545.75}
 >>>>>>> level-2
+=======
+      x: -389.40002
+      y: -195.4
+      width: 778.80005
+      height: 390.8
+    m_MinimalGUI: 1
+  m_defaultScale: 1
+  m_LastWindowPixelSize: {x: 973.50006, y: 514.75}
+>>>>>>> Integrating-3-witth-rest
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
@@ -1195,9 +1395,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 531.2
-    width: 1172.6
-    height: 252.19998
+    y: 506.4
+    width: 1149.4
+    height: 277
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default

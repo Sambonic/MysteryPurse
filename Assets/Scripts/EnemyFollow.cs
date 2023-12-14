@@ -8,13 +8,24 @@ public class EnemyFollow : EnemyController
     // Start is called before the first frame update
     void Start()
     {
-        player = FindObjectOfType<PlayermotionLevel2>();
+        PlayermotionLevel2 level2player = FindObjectOfType<PlayermotionLevel2>();
+        if (level2player != null)
+        {
+            player = FindObjectOfType<PlayermotionLevel2>();
+        }
+        else
+        {
+            Debug.Log("Player is dead. Game Over");
+        }
         
     }
 
     // Update is called once per frame
     void Update()
     {
-        transform.position = Vector3.MoveTowards(transform.position, player.transform.position, maxSpeed * Time.deltaTime);
+        if (player != null)
+        {
+            transform.position = Vector3.MoveTowards(transform.position, player.transform.position, maxSpeed * Time.deltaTime);
+        }
     }
 }

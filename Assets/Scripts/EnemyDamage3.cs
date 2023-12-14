@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class EnemyDamage3 : MonoBehaviour
 {
-    public float damageAmount = 0.4f; // Amount of damage dealt to the player
+    private int damageAmount = 40; // Amount of damage dealt to the player
 
     // This function is called when something enters the enemy's collider marked as trigger
     private void OnTriggerEnter2D(Collider2D collision)
@@ -10,7 +10,7 @@ public class EnemyDamage3 : MonoBehaviour
         if (collision.tag =="Player")
         {
             PlayerStatus3 playerHealth = collision.GetComponent<PlayerStatus3>();
-            playerHealth.damage(damageAmount);
+            playerHealth.takeDamage(damageAmount);
             Debug.Log("Player Hit");
         }
     }

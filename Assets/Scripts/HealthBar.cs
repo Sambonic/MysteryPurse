@@ -57,9 +57,10 @@ public class HealthBar : MonoBehaviour
         {
             healthValue.color = Color.white;
         }
-        if (health == 0)
+        if (health <= 0)
         {
             Destroy(hearts[heartsRemaining--]);
+            Debug.Log("Heart removed");
         }
     }
 }

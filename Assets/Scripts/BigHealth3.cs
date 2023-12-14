@@ -13,11 +13,8 @@ public class BigHealth3 : MonoBehaviour
     {
         if (isTouching)
         {
-            if (Input.GetButton("Submit"))
-            {
-                increaseHealth();
-                destroy();
-            }
+            increaseHealth();
+            destroy();
         }
     }
 
@@ -38,7 +35,8 @@ public class BigHealth3 : MonoBehaviour
 
     private void increaseHealth()
     {
-        player.increaseHealth(0.5f);
+        player.BigHeal();
+
     }
 
     private void destroy()

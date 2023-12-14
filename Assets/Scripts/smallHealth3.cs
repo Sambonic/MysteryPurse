@@ -13,12 +13,9 @@ public class smallHealth3 : MonoBehaviour
     {
         if (isTouching)
         {
-            if (Input.GetButton("Submit"))
-            {
                 increaseHealth();
                 destroy();
-            }
-        }
+        }     
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -36,9 +33,9 @@ public class smallHealth3 : MonoBehaviour
         }
     }
 
-    private void increaseHealth()
+   private void increaseHealth()
     {
-        player.increaseHealth();
+        player.SmallHeal();
     }
 
     private void destroy()

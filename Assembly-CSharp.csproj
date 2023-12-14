@@ -206,6 +206,20 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexZoom.cs" />
     <Compile Include="Assets\Prefabs\Cainos\Third Party\Lucid Editor\Runtime\Attributes\FoldoutGroupAttribute.cs" />
     <Compile Include="Assets\Prefabs\Cainos\Third Party\Lucid Editor\Runtime\Attributes\DisableLucidEditorAttribute.cs" />
+    <Compile Include="Assets\Scripts\Box_paper.cs" />
+    <Compile Include="Assets\SoundEffects_Scripts\AudioManager.cs" />
+    <Compile Include="Assets\SoundEffects_Scripts\Audio_with_puase.cs" />
+    <Compile Include="Assets\SoundEffects_Scripts\Paper.cs" />
+    <Compile Include="Assets\SoundEffects_Scripts\OneTime_Audio_M.cs" />
+    <Compile Include="Assets\SoundEffects_Scripts\Running_Audioo.cs" />
+    <Compile Include="Assets\SoundEffects_Scripts\Audio_stop_player.cs" />
+    <Compile Include="Assets\SoundEffects_Scripts\Audio_with_puase1.cs" />
+    <Compile Include="Assets\SoundEffects_Scripts\Defending_Audioo.cs" />
+    <Compile Include="Assets\Scripts\Box_paper2.cs" />
+    <Compile Include="Assets\SoundEffects_Scripts\Jumping_Audio.cs" />
+    <Compile Include="Assets\SoundEffects_Scripts\Paper1.cs" />
+    <Compile Include="Assets\SoundEffects_Scripts\Puzzle_check.cs" />
+    <Compile Include="Assets\SoundEffects_Scripts\Fighting_Audioo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Prefabs\Cainos\Third Party\Lucid Editor\License.txt" />

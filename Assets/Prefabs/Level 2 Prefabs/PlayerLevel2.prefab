@@ -16,7 +16,6 @@ GameObject:
   - component: {fileID: 4299467528339964693}
   - component: {fileID: 3108499905048872875}
   - component: {fileID: 4846649019781356727}
-  - component: {fileID: 646930577}
   m_Layer: 3
   m_Name: PlayerLevel2
   m_TagString: Player
@@ -31,9 +30,9 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4846649019781356721}
-  m_LocalRotation: {x: 0.0065718866, y: 0.00005612537, z: 0.008725624, w: 0.9999404}
+  m_LocalRotation: {x: 0.0065731434, y: 0.00005736296, z: 0.008726369, w: 0.9999404}
   m_LocalPosition: {x: 9.09, y: -2.6, z: 0}
-  m_LocalScale: {x: 0.99999994, y: 0.99999994, z: 1}
+  m_LocalScale: {x: 1.0524508, y: 0.9994641, z: 1.0088}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -104,7 +103,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.021451473, y: 0.07970023}
+  m_Offset: {x: 0, y: 0.07970023}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -115,7 +114,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.3744512, y: 4.720533}
+  m_Size: {x: 1, y: 4.720533}
   m_EdgeRadius: 0
 --- !u!50 &4846649019781356722
 Rigidbody2D:
@@ -164,11 +163,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6645e74a31533084bb99c0b7450a7ac9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 100
+  health: 6
   lives: 3
   flickerDuration: 0.1
   isImmune: 0
   immunityDuration: 1.5
+  coinsCollected: 0
 --- !u!114 &3108499905048872875
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -201,22 +201,3 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!320 &646930577
-PlayableDirector:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4846649019781356721}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_PlayableAsset: {fileID: 11400000, guid: 773690f5f25282f4f90f42557672d6bc, type: 2}
-  m_InitialState: 1
-  m_WrapMode: 2
-  m_DirectorUpdateMode: 1
-  m_InitialTime: 0
-  m_SceneBindings:
-  - key: {fileID: 3049989515408474119, guid: 773690f5f25282f4f90f42557672d6bc, type: 2}
-    value: {fileID: 0}
-  m_ExposedReferences:
-    m_References: []

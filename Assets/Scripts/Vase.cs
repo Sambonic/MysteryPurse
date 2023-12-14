@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System.Threading;
 
 public class Vase : MonoBehaviour
 {
@@ -29,9 +30,14 @@ public class Vase : MonoBehaviour
         {
             Destroy(gameObject, .2f);
             FindObjectOfType<PicturesManager>().SpawnRandomPicture(transform.position, transform.rotation);
+            Wait();
         }
     }
-  
+
+    IEnumerator Wait()
+    {
+        yield return new WaitForSeconds(1f);
+    }
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.tag == "Player")

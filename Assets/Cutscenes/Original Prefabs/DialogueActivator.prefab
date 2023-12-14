@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 421549071216953287}
   - component: {fileID: 421549071216953286}
-  - component: {fileID: 9155692215134069349}
   - component: {fileID: 421549071216953285}
   m_Layer: 0
   m_Name: DialogueActivator
@@ -47,20 +46,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DialogueTrigger: {fileID: 7471704611002228623, guid: a8040b0cec6771b42b4dfa5c26b3b9ff, type: 3}
---- !u!114 &9155692215134069349
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 421549071216953284}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 916977e970fa5714fb8f3dfa26279fcf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  zoomFactor: 2
-  zoomSpeed: 5
 --- !u!61 &421549071216953285
 BoxCollider2D:
   m_ObjectHideFlags: 0

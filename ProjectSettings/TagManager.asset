@@ -28,6 +28,7 @@ TagManager:
   - itemTag
   - FireBlock
   - Enemy
+  - Dog
   layers:
   - Default
   - TransparentFX

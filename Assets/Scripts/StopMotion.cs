@@ -7,20 +7,34 @@ public class StopMotion : MonoBehaviour
     private Animator anim;
     public void Start()
     {
-        anim = PlayermotionLevel2.animLevel2;
+        Playermotion player1 = FindObjectOfType<Playermotion>();
+        PlayermotionLevel2 player2 = FindObjectOfType<PlayermotionLevel2>();
+        if (player1 != null){
+            //this.anim = Playermotion.anim;
+        }
+        else if (player2 != null) {
+            anim = PlayermotionLevel2.animLevel2;
+        }
+
+        
     }
     public void StopMovement()
     {
         GameObject[] enemies = GameObject.FindGameObjectsWithTag("Enemy");
         GameObject[] players = GameObject.FindGameObjectsWithTag("Player");
-
-        foreach (GameObject enemy in enemies)
+        if (enemies != null)
         {
-            FreezeEnemiesMotion(enemy);
+            foreach (GameObject enemy in enemies)
+            {
+                FreezeEnemiesMotion(enemy);
+            }
         }
-        foreach (GameObject player in players)
+        if (players != null)
         {
-            FreezePlayerMotion(player);
+            foreach (GameObject player in players)
+            {
+                FreezePlayerMotion(player);
+            }
         }
     }
 
@@ -41,15 +55,15 @@ public class StopMotion : MonoBehaviour
 
     void FreezePlayerMotion(GameObject character)
     {
-        Rigidbody2D rb = character.GetComponent<Rigidbody2D>();
-        PlayermotionLevel2 playerController = character.GetComponent<PlayermotionLevel2>(); 
+        Rigidbody2D body = character.GetComponent<Rigidbody2D>();
+        PlayermotionLevel2 playerController = character.GetComponent<PlayermotionLevel2>();
 
-        if (rb != null)
+        if (body != null)
         {
-            rb.constraints = RigidbodyConstraints2D.FreezeRotation;
-            rb.velocity = Vector2.zero;
-            rb.isKinematic = true;
-            
+            body.constraints = RigidbodyConstraints2D.FreezeRotation;
+            body.velocity = Vector2.zero;
+  
+
         }
 
         if (playerController != null)
@@ -59,17 +73,17 @@ public class StopMotion : MonoBehaviour
 
         // Assuming "Idle" is the name of the idle animation
         anim.SetBool("Walking", false);
-
+        anim.SetBool("Grounded", true);
     }
     void FreezeEnemiesMotion(GameObject character)
     {
-        Rigidbody2D rb = character.GetComponent<Rigidbody2D>();
+        Rigidbody2D body = character.GetComponent<Rigidbody2D>();
         EnemyFollow playerController = character.GetComponent<EnemyFollow>();
 
-        if (rb != null)
+        if (body != null)
         {
-            rb.velocity = Vector2.zero;
-            rb.isKinematic = true;
+            body.velocity = Vector2.zero;
+            body.isKinematic = true;
         }
 
         if (playerController != null)
@@ -78,17 +92,18 @@ public class StopMotion : MonoBehaviour
         }
     }
 
+
     void ResumePlayerMotion(GameObject character)
     {
-        Rigidbody2D rb = character.GetComponent<Rigidbody2D>();
+        Rigidbody2D body = character.GetComponent<Rigidbody2D>();
         PlayermotionLevel2 playerController = character.GetComponent<PlayermotionLevel2>();
         Animator anim = character.GetComponent<Animator>(); // Assuming you have an Animator component
 
-        if (rb != null)
+        if (body != null)
         {
-            rb.isKinematic = false;
-            rb.velocity = Vector2.zero; // Reset velocity if necessary
-            rb.constraints = RigidbodyConstraints2D.None;
+            body.isKinematic = false;
+            body.velocity = Vector2.zero; // Reset velocity if necessary
+            body.constraints = RigidbodyConstraints2D.None;
         }
 
         if (playerController != null)
@@ -104,13 +119,13 @@ public class StopMotion : MonoBehaviour
     }
     void ResumeEnemiesMotion(GameObject character)
     {
-        Rigidbody2D rb = character.GetComponent<Rigidbody2D>();
+        Rigidbody2D body = character.GetComponent<Rigidbody2D>();
         EnemyFollow enemyController = character.GetComponent<EnemyFollow>();
 
-        if (rb != null)
+        if (body != null)
         {
-            rb.isKinematic = false;
-            rb.velocity = Vector2.zero; // Reset velocity if necessary
+            body.isKinematic = false;
+            body.velocity = Vector2.zero; // Reset velocity if necessary
         }
 
         if (enemyController != null)

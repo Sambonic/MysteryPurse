@@ -6,6 +6,7 @@ public class PlayerCollections : MonoBehaviour
 {
     float picturesGathered = 0;
     bool boneGathered = false;
+    public GameObject PictureAcquiredMessage;
     // Start is called before the first frame update
     void Start()
     {
@@ -21,17 +22,19 @@ public class PlayerCollections : MonoBehaviour
     {
         return boneGathered;
     }
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if(collision.tag == "Bone")
         {
             boneGathered = true;
-            Destroy(collision.gameObject);
             Debug.Log("Bone Acquired!");
         }
         if(collision.tag == "Picture")
         {
             picturesGathered++;
+            Instantiate(PictureAcquiredMessage);
+            FindObjectOfType<PictureAcquired>().PicturesGathered(picturesGathered);
             Destroy(collision.gameObject);
             Debug.Log("Gathered Pictured Number "+picturesGathered);
         }
@@ -40,7 +43,8 @@ public class PlayerCollections : MonoBehaviour
       
             if (picturesGathered == 3)
             {
-                Debug.Log("Level done!");
+                Debug.Log("Level 2 done!");
+                FindObjectOfType<NavigationController>().GoToLevelThreeScene();
             }
             else
             {

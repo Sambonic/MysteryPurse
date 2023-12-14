@@ -28,11 +28,11 @@ public class Enemy3 : EnemyController
         }
         
     }
-    void OnTriggerEnter2D(Collider2D other)
+  /*  void OnTriggerEnter2D(Collider2D other)
     {
         if(other.tag == "Player")
         {
-            player.damage();
+            player.health = player.health - 20;
         }
-    }
+    }*/
 }

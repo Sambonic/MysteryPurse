@@ -44,6 +44,6 @@ public class fireball3 : MonoBehaviour
 
     private void hitPlayer()
     {
-        player.damage(0.3f);
+        player.health = player.health - 30;
     }
 }

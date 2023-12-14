@@ -33,6 +33,7 @@ TagManager:
   - Exit
   - Entrance
   - Arena
+  - Chest
   layers:
   - Default
   - TransparentFX

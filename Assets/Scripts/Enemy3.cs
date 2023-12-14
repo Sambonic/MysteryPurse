@@ -2,11 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Enemy3 : MonoBehaviour
+public class Enemy3 : EnemyController
 {
-    public bool isFacingRight = false;
-    public float maxSpeed = 3f;
-    public int damage = 6;
     public float chaseDistance = 5f;
 
     private PlayerStatus3 player;

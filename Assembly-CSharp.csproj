@@ -184,7 +184,7 @@
     <Compile Include="Assets\Scripts\BigHealth3.cs" />
     <Compile Include="Assets\Prefabs\Cainos\Third Party\Lucid Editor\Runtime\Attributes\HelpBoxIfAttribute.cs" />
     <Compile Include="Assets\SoundEffects_Scripts\Defending_Audioo.cs" />
-    <Compile Include="Assets\LevelBounds.cs" />
+    <Compile Include="Assets\Scripts\LevelBounds.cs" />
     <Compile Include="Assets\Scripts\BoxBridg.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />
     <Compile Include="Assets\Prefabs\Cainos\Third Party\Lucid Editor\Runtime\Attributes\DisableIfAttribute.cs" />

@@ -5,31 +5,29 @@ using UnityEngine.SceneManagement;
 
 public class NavigationController : MonoBehaviour
 {
-   /* public void GoToMainMenuScene()
-    {
-        SceneManager.LoadScene(0);
-    }*/
-   //Reorganize after all the scens have been finsihed
-
-    public void GoToLevelOneScene()
+    public void GoToMainMenuScene()
     {
         SceneManager.LoadScene(0);
     }
-    public void GoToLevelTwoScene()
+    public void GoToLevelOneScene()
     {
         SceneManager.LoadScene(1);
     }
-    public void GoToLevelThreeScene()
+    public void GoToLevelTwoScene()
     {
         SceneManager.LoadScene(2);
     }
-    public void GoToGameOverScene()
+    public void GoToLevelThreeScene()
     {
         SceneManager.LoadScene(3);
     }
-    /*public void Quit()
+    public void GoToLevelFourScene()
+    {
+        SceneManager.LoadScene(4);
+    }
+    public void Quit()
     {
         Application.Quit();
-    }*/
+    }
 
 }

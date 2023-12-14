@@ -5348,6 +5348,10 @@ PrefabInstance:
       propertyPath: lives
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 4299467528339964693, guid: dbce4abae009aa344a107758cf5cf40d, type: 3}
+      propertyPath: health
+      value: 100
+      objectReference: {fileID: 0}
     - target: {fileID: 4846649019781356721, guid: dbce4abae009aa344a107758cf5cf40d, type: 3}
       propertyPath: m_Name
       value: PlayerLevel2
@@ -10718,6 +10722,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GroundSpike (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 4640736107633867219, guid: e66751d7eb9889f4aa6a13379b2835e3, type: 3}
+      propertyPath: damage
+      value: 20
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e66751d7eb9889f4aa6a13379b2835e3, type: 3}
 --- !u!1001 &1180095620
@@ -10860,6 +10868,10 @@ PrefabInstance:
     - target: {fileID: 1049023302621363167, guid: e66751d7eb9889f4aa6a13379b2835e3, type: 3}
       propertyPath: m_Name
       value: GroundSpike
+      objectReference: {fileID: 0}
+    - target: {fileID: 4640736107633867219, guid: e66751d7eb9889f4aa6a13379b2835e3, type: 3}
+      propertyPath: damage
+      value: 20
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e66751d7eb9889f4aa6a13379b2835e3, type: 3}
@@ -16217,6 +16229,10 @@ PrefabInstance:
     - target: {fileID: 1049023302621363167, guid: e66751d7eb9889f4aa6a13379b2835e3, type: 3}
       propertyPath: m_Name
       value: GroundSpike (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4640736107633867219, guid: e66751d7eb9889f4aa6a13379b2835e3, type: 3}
+      propertyPath: damage
+      value: 20
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e66751d7eb9889f4aa6a13379b2835e3, type: 3}

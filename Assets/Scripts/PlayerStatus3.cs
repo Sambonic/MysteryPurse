@@ -84,7 +84,7 @@ public class PlayerStatus3 : MonoBehaviour
         playerAnimation.SetBool("OnGround", isTouchingGround);
 
         fallDetector.transform.position = new Vector2(transform.position.x, fallDetector.transform.position.y); //fall detector position will be changed by the players x axis only
-        if (health <= 0.0f && lives > 0)
+        if (this.health <= 0 && lives > 0)
         {
             // Destroy(this.gameObject);
             transform.position = respawnPoint;
@@ -115,6 +115,7 @@ public class PlayerStatus3 : MonoBehaviour
     {
         if (collision.tag == "fallDetector")
         {
+            TakeDamage(100);
             transform.position = respawnPoint; // respawn the player to the beginning
         }
         if (collision.tag == "checkpoint")
@@ -126,16 +127,14 @@ public class PlayerStatus3 : MonoBehaviour
         {
             Fireblock.isKinematic = false;
         }
+        if (collision.tag == "itemTag")
+        {
+            TakeDamage(20);
+        }
 
     }
     private void OnTriggerStay2D(Collider2D collision)
     {
-        if (collision.tag == "itemTag")
-        {
-            this.health = this.health - 20;
-            FindObjectOfType<HealthBar>().ChangeHealthBarImage(this.health);
-        }
-
          if (collision.tag == "Ladder" && Input.GetButton("Vertical"))
          {
              rb.velocity = new Vector2(transform.position.x, 3f);
@@ -143,12 +142,12 @@ public class PlayerStatus3 : MonoBehaviour
 
          if(collision.tag == "Fire")
         {
-            this.health = this.health - 3;
-            FindObjectOfType<HealthBar>().ChangeHealthBarImage(this.health);
+            TakeDamage(30);
         }
 
          if(collision.tag == "Chest" && Input.GetButton("Submit"))
         {
+            
             letterOpened = true;
             loveletter.SetActive(true);
             Time.timeScale = 0f;
@@ -172,13 +171,31 @@ public class PlayerStatus3 : MonoBehaviour
         Debug.Log("Added 20 Health. Current health is " + health.ToString());
     }
 
-    public void takeDamage(int damage)
+    public void TakeDamage(int damage)
     {
-        health -= damage;
-        health = Mathf.Min(health, 100);
-        FindObjectOfType<HealthBar>().ChangeHealthBarImage(health);
-    }
+        this.health = this.health - damage;
 
+        if (this.health < 0)
+            this.health = 0;
+        FindObjectOfType<HealthBar>().ChangeHealthBarImage(this.health);
+        if (this.lives > 0 && this.health == 0)
+        {
+            transform.position = respawnPoint;
+            this.health = 100;
+            FindObjectOfType<HealthBar>().ChangeHealthBarImage(this.health);
+            this.lives--;
+        }
+
+        else if (this.lives == 0 && this.health == 0)
+        {
+            Debug.Log("Gameover");
+            Destroy(this.gameObject);
+            //FindObjectOfType<NavigationController>().GoToGameOverScene();
+        }
+        Debug.Log("Player Health:" + this.health.ToString());
+        Debug.Log("Player Lives:" + this.lives.ToString());
+        
+    }
     public void assignOne(string s)
     {
         inputFieldOne = s;
@@ -199,9 +216,10 @@ public class PlayerStatus3 : MonoBehaviour
 
     public void closeLetter()
     {
-         letterOpened = false;
-         loveletter.SetActive(false);
-         Time.timeScale = 1f;
+        FindObjectOfType<NavigationController>().GoToLevelFourScene();
+        letterOpened = false;
+        loveletter.SetActive(false);
+        Time.timeScale = 1f;
     }
 
 

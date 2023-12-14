@@ -17,14 +17,17 @@ public class Enemy3 : EnemyController
     // Update is called once per frame
     void Update()
     {
-        float distanceToPlayer = Vector3.Distance(transform.position, player.transform.position);
-        if(distanceToPlayer<= chaseDistance)
+        if (player != null)
         {
-            isChasing = true;
-        }
-        if (isChasing)
-        {
-            transform.position = Vector3.MoveTowards(transform.position, player.transform.position, 3f * Time.deltaTime);
+            float distanceToPlayer = Vector3.Distance(transform.position, player.transform.position);
+            if (distanceToPlayer <= chaseDistance)
+            {
+                isChasing = true;
+            }
+            if (isChasing)
+            {
+                transform.position = Vector3.MoveTowards(transform.position, player.transform.position, 3f * Time.deltaTime);
+            }
         }
         
     }

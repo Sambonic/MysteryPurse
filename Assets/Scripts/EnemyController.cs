@@ -20,7 +20,18 @@ public class EnemyController : MonoBehaviour
     {
         if (other.tag == "Player")
         {
-            FindObjectOfType<PlayerStatus3>().takeDamage(damage);
+            PlayerStatus3 player3 = FindObjectOfType<PlayerStatus3>();
+            PlayerStats player2 = FindObjectOfType<PlayerStats>();
+            if (player3 != null)
+            {
+                player3.TakeDamage(damage);
+                Debug.Log("Player 3 took damage");
+            }
+            else if( player2 != null)
+            {
+                player2.TakeDamage(damage);
+                Debug.Log("Player 2 took damage");
+            }
         }
     }
 }

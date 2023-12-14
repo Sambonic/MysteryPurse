@@ -18,15 +18,14 @@ public class PlayerStats4 : MonoBehaviour
     private Animator playerAnimation;
 
     private Vector3 respawnPoint;// respawn of the player
-    public GameObject fallDetector;// public GameObject fallDetector; //to make it follow with the player
+    public GameObject fallDetector; //to make it follow with the player
 
     private bool isFacingRight = true; // Flag to track the character's facing direction
 
-     public HealthBar4 healthbar;
-     public int points = 0;
-
-    public Text scoreText;
-    //  public Rigidbody2D Fireblock;
+    public int points = 0;
+    //public HealthBar3 healthbar;
+    public int health = 100;
+    public int lives = 3;
 
     private AudioSource audioSource;
     public AudioClip song;
@@ -35,10 +34,9 @@ public class PlayerStats4 : MonoBehaviour
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-      //  Fireblock.isKinematic = true;
         playerAnimation = GetComponent<Animator>();
         respawnPoint = transform.position;
-        scoreText.text = "Score: " + points;
+        // scoreText.text = "Score: "+ points;
         audioSource = GetComponent<AudioSource>();
     }
 
@@ -77,23 +75,31 @@ public class PlayerStats4 : MonoBehaviour
         playerAnimation.SetFloat("Speed", Mathf.Abs(rb.velocity.x));//finding the velocity of the player in x axis, we are using Math.Abs because when it moves left it will be negative so the walking condition will not be fulfilled
         playerAnimation.SetBool("OnGround", isTouchingGround);
 
-         fallDetector.transform.position = new Vector2(transform.position.x, fallDetector.transform.position.y); //fall detector position will be changed by the players x axis only
-          if (Health4.totalHealth <= 0.0f)
-          {
-              // Destroy(this.gameObject);
-              transform.position = respawnPoint;
-              resetHealth();
-          }
+        fallDetector.transform.position = new Vector2(transform.position.x, fallDetector.transform.position.y); //fall detector position will be changed by the players x axis only
+        if (this.health <= 0 && lives > 0)
+        {
+            // Destroy(this.gameObject);
+            transform.position = respawnPoint;
+            this.health = 100;
+            FindObjectOfType<HealthBar>().ChangeHealthBarImage(this.health);
+            this.lives--;
+        }
+        else if (health <= 0.0f && lives <= 0)
+        {
+            Destroy(this.gameObject);
+        }
 
-         if (points >= 27)
-         {
-             GameObject[] destroyBoxes = GameObject.FindGameObjectsWithTag("destroyBox");
+        if (points >= 27)
+        {
+            GameObject[] destroyBoxes = GameObject.FindGameObjectsWithTag("destroyBox");
 
-             foreach (GameObject box in destroyBoxes)
-             {
-                 Destroy(box);
-             }
-         }
+            foreach (GameObject box in destroyBoxes)
+            {
+                Destroy(box);
+            }
+        }
+
+
     }
 
     //method detects collision when 1 object enters another object's collider
@@ -101,6 +107,7 @@ public class PlayerStats4 : MonoBehaviour
     {
         if (collision.tag == "fallDetector")
         {
+            TakeDamage(100);
             transform.position = respawnPoint; // respawn the player to the beginning
         }
         if (collision.tag == "checkpoint")
@@ -108,11 +115,11 @@ public class PlayerStats4 : MonoBehaviour
             respawnPoint = transform.position; //update the respawn point to the player's new position (new checkpoint)
         }
 
-         /* if (collision.CompareTag("FireBlock"))
-          {
-              Fireblock.isKinematic = false;
-          }*/
-         if(collision.tag == "Entrance")
+        if (collision.tag == "itemTag")
+        {
+            TakeDamage(20);
+        }
+        if (collision.tag == "Entrance")
         {
             songCount++;
             if (songCount == 1)
@@ -121,56 +128,69 @@ public class PlayerStats4 : MonoBehaviour
             }
         }
 
-        /* if(collision.tag == "Exit")
+        if(collision.tag == "Exit")
         {
             audioSource.Stop();
-        }*/
+        }
 
     }
     private void OnTriggerStay2D(Collider2D collision)
     {
-         if (collision.tag == "itemTag")
-          {
-              healthbar.Damage(0.002f);
-          }
+        if (collision.tag == "Ladder" && Input.GetButton("Vertical"))
+        {
+            rb.velocity = new Vector2(transform.position.x, 3f);
+        }
 
-          if (collision.tag == "Ladder" && Input.GetButton("Vertical"))
-          {
-              rb.velocity = new Vector2(transform.position.x, 3f);
-          }
+        if (collision.tag == "Fire")
+        {
+            TakeDamage(30);
+        }
 
-          if (collision.tag == "smallHealth" && Input.GetButton("Submit"))
-          {
-              healthbar.IncreaseHealth();
-          }
-
-          if (collision.tag == "Fire")
-          {
-              healthbar.Damage(0.003f);
-          }
 
     }
 
-      public void damage()
-      {
-          healthbar.Damage(0.003f);
-      }
-      public void damage(float damage)
-      {
-          healthbar.Damage(damage);
-      }
-      public void increaseHealth()
-      {
-          healthbar.IncreaseHealth();
-      }
-      public void increaseHealth(float amount)
-      {
-          healthbar.IncreaseHealth(amount);
-      }
-      private void resetHealth()
-      {
-          healthbar.resetHealth();
-      }
+    public void BigHeal()
+    {
+        health += 40;
+        health = Mathf.Min(health, 100);
+        FindObjectOfType<HealthBar>().ChangeHealthBarImage(health);
+        Debug.Log("Added " + 40 + " Health. Current health is " + health.ToString());
+    }
+
+    public void SmallHeal()
+    {
+        health += 20;
+        health = Mathf.Min(health, 100);
+        FindObjectOfType<HealthBar>().ChangeHealthBarImage(health);
+        Debug.Log("Added 20 Health. Current health is " + health.ToString());
+    }
+
+    public void TakeDamage(int damage)
+    {
+        this.health = this.health - damage;
+
+        if (this.health < 0)
+            this.health = 0;
+        FindObjectOfType<HealthBar>().ChangeHealthBarImage(this.health);
+        if (this.lives > 0 && this.health == 0)
+        {
+            transform.position = respawnPoint;
+            this.health = 100;
+            FindObjectOfType<HealthBar>().ChangeHealthBarImage(this.health);
+            this.lives--;
+        }
+
+        else if (this.lives == 0 && this.health == 0)
+        {
+            Debug.Log("Gameover");
+            Destroy(this.gameObject);
+            //FindObjectOfType<NavigationController>().GoToGameOverScene();
+        }
+        Debug.Log("Player Health:" + this.health.ToString());
+        Debug.Log("Player Lives:" + this.lives.ToString());
+
+    }
+
 
 
     void Flip()
@@ -187,10 +207,10 @@ public class PlayerStats4 : MonoBehaviour
     {
         Destroy(this.gameObject);
     }
-      public void addPoints(int p)
-      {
-          points += p;
-          scoreText.text = "Score: " + points;
-          Debug.Log("Points added");
-      }
+    public void addPoints(int p)
+    {
+        points += p;
+        //  scoreText.text = "Score: " + points;
+        Debug.Log("Points added");
+    }
 }

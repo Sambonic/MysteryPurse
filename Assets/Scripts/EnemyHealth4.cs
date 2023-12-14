@@ -32,5 +32,6 @@ public class EnemyHealth4 : MonoBehaviour
     {
         // Example: Destroy the enemy object
         Destroy(gameObject);
+        FindObjectOfType<NavigationController>().GoToMainMenuScene();
     }
 }

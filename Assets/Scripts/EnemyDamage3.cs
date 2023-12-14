@@ -10,7 +10,7 @@ public class EnemyDamage3 : MonoBehaviour
         if (collision.tag =="Player")
         {
             PlayerStatus3 playerHealth = collision.GetComponent<PlayerStatus3>();
-            playerHealth.takeDamage(damageAmount);
+            playerHealth.TakeDamage(damageAmount);
             Debug.Log("Player Hit");
         }
     }

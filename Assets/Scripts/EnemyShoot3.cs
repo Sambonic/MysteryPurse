@@ -20,15 +20,18 @@ public class EnemyShoot3 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        float distanceToPlayer = Vector3.Distance(transform.position, player.transform.position);
-        if (distanceToPlayer <= chaseDistance)
+        if (player != null)
         {
-            shooting = true;
-        }
-        if (Time.time >= nextFireTime && shooting)
-        {
-            Shoot();
-            nextFireTime = Time.time + fireRate;
+            float distanceToPlayer = Vector3.Distance(transform.position, player.transform.position);
+            if (distanceToPlayer <= chaseDistance)
+            {
+                shooting = true;
+            }
+            if (Time.time >= nextFireTime && shooting)
+            {
+                Shoot();
+                nextFireTime = Time.time + fireRate;
+            }
         }
     }
 

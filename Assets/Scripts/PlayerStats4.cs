@@ -15,7 +15,7 @@ public class PlayerStats4 : MonoBehaviour
     public LayerMask groundLayer; //use layers to specify what is ground
     private bool isTouchingGround;
 
-    private Animator playerAnimation;
+    public static Animator playerAnimation;
 
     private Vector3 respawnPoint;// respawn of the player
     public GameObject fallDetector; //to make it follow with the player

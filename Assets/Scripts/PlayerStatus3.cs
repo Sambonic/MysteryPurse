@@ -98,18 +98,6 @@ public class PlayerStatus3 : MonoBehaviour
         {
             Destroy(this.gameObject);
         }
-
-        if (picturesGathered >= 2)
-        {
-            GameObject[] destroyBoxes = GameObject.FindGameObjectsWithTag("destroyBox");
-
-            foreach (GameObject box in destroyBoxes)
-            {
-                Destroy(box);
-            }
-        }
-
-
     }
 
     //method detects collision when 1 object enters another object's collider
@@ -125,7 +113,17 @@ public class PlayerStatus3 : MonoBehaviour
             respawnPoint = transform.position; //update the respawn point to the player's new position (new checkpoint)
         }
 
-        if(collision.CompareTag("FireBlock"))
+        if (collision.tag == "Big Health")
+        {
+            Destroy(collision.gameObject);
+            BigHeal();
+        }
+        if (collision.tag == "Small Health")
+        {
+            Destroy(collision.gameObject);
+            SmallHeal();
+        }
+        if (collision.CompareTag("FireBlock"))
         {
             Fireblock.isKinematic = false;
         }
@@ -218,7 +216,7 @@ public class PlayerStatus3 : MonoBehaviour
         two = inputFieldTwo.text;
         three = inputFieldThree.text;
 
-        if (one == "barcelona" && two == "mexico" && three == "spain")
+        if (one == "elfayoum" && two == "pyramids" && three == "marasi")
         {
             letterOpened = false;
             loveletter.SetActive(false);

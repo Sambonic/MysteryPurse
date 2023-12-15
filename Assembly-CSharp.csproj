@@ -139,6 +139,7 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SimpleScript.cs" />
     <Compile Include="Assets\Scripts\PlayerStats4.cs" />
     <Compile Include="Assets\SoundEffects_Scripts\Running_Audioo.cs" />
+    <Compile Include="Assets\Scripts\car.cs" />
     <Compile Include="Assets\Prefabs\Cainos\Third Party\Lucid Editor\Runtime\Enum.cs" />
     <Compile Include="Assets\Scripts\NavigationController.cs" />
     <Compile Include="Assets\Scripts\loveLetter.cs" />

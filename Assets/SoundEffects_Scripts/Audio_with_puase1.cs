@@ -25,6 +25,7 @@ public class Audio_with_puase1 : MonoBehaviour
            
               collisionN = true;
               touched_The_Box = true;
+            BOX_Animation.touched_The_Box = true;
 
             if (!Sound_played)
             { 
@@ -41,11 +42,18 @@ public class Audio_with_puase1 : MonoBehaviour
         {
 
             timer += Time.deltaTime;
+            if (Input.GetKey(KeyCode.E))
+            {
+                timer = total_time;
+                Sound.Stop();
+                // so in caseof you want cancele the Audio.
+            }
 
             if (timer < total_time)
             {
                 stop_the_player = true;
                 show_paper = true;
+               
             }
             else
             {

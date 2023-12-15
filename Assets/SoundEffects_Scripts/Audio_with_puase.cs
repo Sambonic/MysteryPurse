@@ -38,7 +38,12 @@ public class Audio_with_puase : MonoBehaviour
         {
 
             timer += Time.deltaTime;
-
+            if (Input.GetKey(KeyCode.E))
+            {
+                timer = total_time;
+                Sound.Stop();
+                // so in caseof you want cancele the Audio.
+            }
             if (timer < total_time)
             {
                 stop_the_player = true;

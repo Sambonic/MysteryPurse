@@ -34,6 +34,10 @@ TagManager:
   - Entrance
   - Arena
   - Chest
+  - TheBest_daYBox
+  - TheworstDayBox
+  - WrongBox
+  - CanNotForgetDateBox
   layers:
   - Default
   - TransparentFX
@@ -91,4 +95,7 @@ TagManager:
     locked: 0
   - name: Arena
     uniqueID: 963026653
+    locked: 0
+  - name: LevelOne_message
+    uniqueID: 1575515309
     locked: 0

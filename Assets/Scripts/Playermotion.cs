@@ -104,11 +104,6 @@ public class Playermotion : MonoBehaviour
         if (collision.gameObject.tag == "Ground")
             grounded = true;
 
-        if (collision.gameObject.tag == "Finish" && is_protected == false && !attacking)
-        {
-            //Destroy(gameObject);
-            transform.position = res_point;
-        }
     }
 
     public void check_puzzle_answer()

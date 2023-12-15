@@ -30,8 +30,8 @@ public class EnemyController : MonoBehaviour
             else if( player2 != null)
             {
                 player2.TakeDamage(damage);
-                Debug.Log("Player 2 took damage");
             }
+
         }
     }
 }

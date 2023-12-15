@@ -16,11 +16,6 @@ public class DialogueText : MonoBehaviour
     void Start()
     {
         FindObjectOfType<StopMotion>().StopMovement();
-        DialogueZoom dialogueZoom = FindObjectOfType<DialogueZoom>();
-        if (dialogueZoom != null)
-        {
-            dialogueZoom.Update();
-        }
         nextButton.onClick.AddListener(OnNextButtonClick);
         OnNextButtonClick();
     }

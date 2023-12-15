@@ -19,13 +19,17 @@ public class DogManager : MonoBehaviour
     {
         if(collision.tag == "Player")
         {
-            if (FindObjectOfType<PlayerCollections>().GetBone())
+            PlayermotionLevel2 player2 = FindObjectOfType<PlayermotionLevel2>();
+            if (player2 != null)
             {
-                Debug.Log("Proceed");
-            }
-            else
-            {
-                Debug.Log("I ain't talkin' unless you get me bone");
+                if (FindObjectOfType<PlayerCollections>().GetBone())
+                {
+                    Debug.Log("Proceed");
+                }
+                else
+                {
+                    Debug.Log("I ain't talkin' unless you get me bone");
+                }
             }
         }
     }

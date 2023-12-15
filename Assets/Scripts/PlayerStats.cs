@@ -82,21 +82,27 @@ public class PlayerStats : MonoBehaviour
                 HiddenSpikes hiddenSpikes = FindObjectOfType<HiddenSpikes>();
                 WeaponFall weaponFall = FindObjectOfType<WeaponFall>();
 
-       
                 if (levelManager != null)
                 {
-                    levelManager.RespawnPlayer();
+                    if (levelManager != null)
+                    {
+                        levelManager.RespawnPlayer();
+                        Debug.Log("Respawned");
+                    }
                 }
-
                 if (hiddenSpikes != null)
                 {
-                    hiddenSpikes.Hide();
+                    if (hiddenSpikes != null)
+                    {
+                        hiddenSpikes.Hide();
+                    }
                 }
-
-                if (weaponFall != null)
-                {
-                    weaponFall.Freeze();
-                    weaponFall.PositionReset();
+                if(weaponFall != null) { 
+                    if (weaponFall != null)
+                    {
+                        weaponFall.Freeze();
+                        weaponFall.PositionReset();
+                    }
                 }
                 this.health = 100;
                 FindObjectOfType<HealthBar>().ChangeHealthBarImage(this.health);

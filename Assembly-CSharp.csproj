@@ -208,7 +208,6 @@
     <Compile Include="Assets\Scripts\DialogueBoxAnimation.cs" />
     <Compile Include="Assets\Scripts\Destructible_platforms.cs" />
     <Compile Include="Assets\Scripts\ResPointsMovement.cs" />
-    <Compile Include="Assets\DialogueZoom.cs" />
     <Compile Include="Assets\Scripts\EnemyController_Chase3.cs" />
     <Compile Include="Assets\Prefabs\Cainos\Third Party\Lucid Editor\Runtime\Attributes\SectionHeaderAttribute.cs" />
     <Compile Include="Assets\SoundEffects_Scripts\Puzzle_check.cs" />

@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Enemy_chase : MonoBehaviour
+public class Enemy_chase : EnemyController
 {
     
     public GameObject player;
@@ -10,10 +10,13 @@ public class Enemy_chase : MonoBehaviour
     private float distance;
     public void chasing()
     {
-        distance = Vector2.Distance(transform.position, player.transform.position);
-        Vector2 direction = player.transform.position - transform.position;
-        transform.position = Vector2.MoveTowards(this.transform.position, player.transform.position,
-        spead * Time.deltaTime);
+        if (player != null)
+        {
+            distance = Vector2.Distance(transform.position, player.transform.position);
+            Vector2 direction = player.transform.position - transform.position;
+            transform.position = Vector2.MoveTowards(this.transform.position, player.transform.position,
+            spead * Time.deltaTime);
+        }
     }
     void Update()
     {

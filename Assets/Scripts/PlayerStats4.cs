@@ -119,6 +119,16 @@ public class PlayerStats4 : MonoBehaviour
         {
             TakeDamage(20);
         }
+        if (collision.tag == "Big Health")
+        {
+            Destroy(collision.gameObject);
+            BigHeal();
+        }
+         if (collision.tag == "Small Health")
+        {
+            Destroy(collision.gameObject);
+            SmallHeal();
+        }
         if (collision.tag == "Entrance")
         {
             songCount++;

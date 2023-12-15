@@ -10,6 +10,7 @@ public class pauseMenu : MonoBehaviour
 
     void Update()
     {
+
         if (Input.GetKeyDown(KeyCode.Escape))
         {
             if (pausemenu.activeSelf)

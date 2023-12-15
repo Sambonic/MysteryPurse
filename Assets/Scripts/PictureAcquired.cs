@@ -30,7 +30,7 @@ public class PictureAcquired : MonoBehaviour
     {
         if (pictures != 3)
         {
-            textComponent.text = "Gathered " + pictures.ToString() + "/3 pictures";
+            textComponent.text = "Gathered " + pictures.ToString() + "/3 places";
         }
         else
         {

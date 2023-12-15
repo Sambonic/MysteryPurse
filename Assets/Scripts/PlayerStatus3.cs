@@ -15,13 +15,16 @@ public class PlayerStatus3 : MonoBehaviour
     public LayerMask groundLayer; //use layers to specify what is ground
     private bool isTouchingGround;
 
-    private Animator playerAnimation;
+    public static Animator playerAnimation;
 
     private Vector3 respawnPoint;// respawn of the player
     public GameObject fallDetector; //to make it follow with the player
 
     private bool isFacingRight = true; // Flag to track the character's facing direction
 
+    float picturesGathered = 0;
+    public GameObject PictureAcquiredMessage;
+    private int count = 0;
     //public HealthBar3 healthbar;
     public int health = 100;
     public int lives = 3;
@@ -33,10 +36,9 @@ public class PlayerStatus3 : MonoBehaviour
     //For the Letter
     [SerializeField] GameObject loveletter;
     private bool letterOpened = false;
-    public string inputFieldOne;
-    public string inputFieldTwo;
-    public string inputFieldThree;
-    public string inputFieldFour;
+    public InputField inputFieldOne;
+    public InputField inputFieldTwo;
+    public InputField inputFieldThree;
 
 
     private void Start()
@@ -97,7 +99,7 @@ public class PlayerStatus3 : MonoBehaviour
             Destroy(this.gameObject);
         }
 
-        if (points >= 27)
+        if (picturesGathered >= 2)
         {
             GameObject[] destroyBoxes = GameObject.FindGameObjectsWithTag("destroyBox");
 
@@ -131,6 +133,18 @@ public class PlayerStatus3 : MonoBehaviour
         {
             TakeDamage(20);
         }
+        if (collision.tag == "Fire")
+        {
+            TakeDamage(30);
+        }
+        if (collision.tag == "Picture")
+        {
+            picturesGathered++;
+            Instantiate(PictureAcquiredMessage);
+            FindObjectOfType<PictureAcquired>().PicturesGathered(picturesGathered);
+            Destroy(collision.gameObject);
+            Debug.Log("Gathered Pictured Number " + picturesGathered);
+        }
 
     }
     private void OnTriggerStay2D(Collider2D collision)
@@ -140,17 +154,17 @@ public class PlayerStatus3 : MonoBehaviour
              rb.velocity = new Vector2(transform.position.x, 3f);
          }
 
-         if(collision.tag == "Fire")
-        {
-            TakeDamage(30);
-        }
-
          if(collision.tag == "Chest" && Input.GetButton("Submit"))
         {
             
             letterOpened = true;
             loveletter.SetActive(true);
             Time.timeScale = 0f;
+        }
+        if (collision.tag == "Car" && Input.GetButton("Submit") && count == 0)
+        {
+            FindObjectOfType<PicturesManager>().SpawnRandomPicture(transform.position, transform.rotation);
+            count++;
         }
 
     }
@@ -196,30 +210,27 @@ public class PlayerStatus3 : MonoBehaviour
         Debug.Log("Player Lives:" + this.lives.ToString());
         
     }
-    public void assignOne(string s)
-    {
-        inputFieldOne = s;
-    }
-    public void assignTwo(string t)
-    {
-        inputFieldTwo = t;
-    }
-    public void assignThree(string s)
-    {
-        inputFieldThree = s;
-    }
-    public void assignFour(string s)
-    {
-        inputFieldFour = s;
-        Debug.Log(inputFieldFour);
-    }
 
     public void closeLetter()
     {
-        FindObjectOfType<NavigationController>().GoToLevelFourScene();
-        letterOpened = false;
-        loveletter.SetActive(false);
-        Time.timeScale = 1f;
+        string one, two, three, four;
+        one = inputFieldOne.text;
+        two = inputFieldTwo.text;
+        three = inputFieldThree.text;
+
+        if (one == "barcelona" && two == "mexico" && three == "spain")
+        {
+            letterOpened = false;
+            loveletter.SetActive(false);
+            Time.timeScale = 1f;
+            FindObjectOfType<NavigationController>().GoToLevelFourScene();
+        }
+        else
+        {
+            letterOpened = false;
+            loveletter.SetActive(false);
+            Time.timeScale = 1f;
+        }
     }
 
 

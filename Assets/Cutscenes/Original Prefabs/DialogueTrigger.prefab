@@ -331,7 +331,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -33, y: -115}
+  m_AnchoredPosition: {x: -32, y: -115}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &7471704610305171369
@@ -362,7 +362,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Dog
+  m_text: Metwaly
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
   m_sharedMaterial: {fileID: 2140032, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
@@ -425,7 +425,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 165.21783, w: 32.381218}
+  m_margin: {x: -20.357834, y: 0, z: 153.00311, w: 32.381218}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -888,7 +888,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sentences:
-  - Howdy, been a while
+  - Well, well, well. . .  here we are as we part ways once again
+  - I know I have been harsh (rightly deserved)
+  - But that's because I miss our lives together
+  - Because no matter how miserable you people were, I had a good life
+  - Remember who started it all
+  - Remember who was the main enemry all along
+  - Now, woof off
   textMeshProComponent: {fileID: 7471704610121544103}
   nextButton: {fileID: 7471704610239318919}
   typingSpeed: 0.05

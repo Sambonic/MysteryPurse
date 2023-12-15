@@ -23517,10 +23517,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Target: {fileID: 955707645}
   Cameraspeed: 4
-  minX: 1
-  maxX: 70
-  minY: 0
-  maxY: 60
+  minX: -100
+  maxX: 100
+  minY: -100
+  maxY: 100
 --- !u!81 &1072391748
 AudioListener:
   m_ObjectHideFlags: 0

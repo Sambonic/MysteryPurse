@@ -110,7 +110,7 @@ public class Playermotion : MonoBehaviour
     {
         if(Puzzle_check.Wrong_Answer)
         {
-            Destroy(gameObject);
+            FindObjectOfType<PlayerStats>().TakeDamage(100);
         }
     }
     public void Shielding()

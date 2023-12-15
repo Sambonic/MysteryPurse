@@ -220,6 +220,8 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexZoom.cs" />
     <Compile Include="Assets\Prefabs\Cainos\Third Party\Lucid Editor\Runtime\Attributes\FoldoutGroupAttribute.cs" />
     <Compile Include="Assets\Prefabs\Cainos\Third Party\Lucid Editor\Runtime\Attributes\DisableLucidEditorAttribute.cs" />
+    <Compile Include="Assets\Scripts\FinaldBossMessage.cs" />
+    <Compile Include="Assets\Scripts\ParallaxBackground.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Prefabs\Cainos\Third Party\Lucid Editor\License.txt" />

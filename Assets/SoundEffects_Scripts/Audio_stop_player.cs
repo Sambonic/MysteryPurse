@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class Audio_stop_player : MonoBehaviour
@@ -46,7 +47,12 @@ public class Audio_stop_player : MonoBehaviour
         {
 
             timer += Time.deltaTime;
-
+            if (Input.GetKey(KeyCode.E))
+            {
+                timer = total_time;
+                randomSound.Stop();
+                // so in caseof you want cancele the Audio.
+            }
             if (timer < total_time)
             {
                 stop_the_player = true;

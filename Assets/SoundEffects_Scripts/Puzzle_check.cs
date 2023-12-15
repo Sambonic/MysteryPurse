@@ -10,15 +10,15 @@ public class Puzzle_check : MonoBehaviour
     {
         if (collision.tag == "CanNotForgetDateBox" && Audio_stop_player.Random_index==2) 
         {
-            print("Level one passed");
+            FindObjectOfType<NavigationController>().GoToLevelTwoScene();
         }
         else if (collision.tag == "TheBest_daYBox" && Audio_stop_player.Random_index == 0)
         {
-            print("Level one passed");
+            FindObjectOfType<NavigationController>().GoToLevelTwoScene();
         }
         else if (collision.tag == "TheworstDayBox" && Audio_stop_player.Random_index == 1)
         {
-            print("Level one passed");
+            FindObjectOfType<NavigationController>().GoToLevelTwoScene();
 
         }
         else

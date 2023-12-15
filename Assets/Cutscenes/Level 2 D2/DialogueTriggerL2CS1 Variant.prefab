@@ -17,11 +17,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7471704610305171368, guid: a8040b0cec6771b42b4dfa5c26b3b9ff, type: 3}
       propertyPath: m_margin.z
-      value: 148.31906
+      value: 295.82578
       objectReference: {fileID: 0}
     - target: {fileID: 7471704610305171375, guid: a8040b0cec6771b42b4dfa5c26b3b9ff, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -29.3
+      value: -79.488
       objectReference: {fileID: 0}
     - target: {fileID: 7471704611002228617, guid: a8040b0cec6771b42b4dfa5c26b3b9ff, type: 3}
       propertyPath: m_RootOrder
@@ -69,11 +69,49 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7471704611002228623, guid: a8040b0cec6771b42b4dfa5c26b3b9ff, type: 3}
       propertyPath: m_Name
-      value: DialogueTriggerL2CS1
+      value: DialogueTriggerL2CS2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7471704611733621651, guid: a8040b0cec6771b42b4dfa5c26b3b9ff, type: 3}
+      propertyPath: sentences.Array.size
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 7471704611733621651, guid: a8040b0cec6771b42b4dfa5c26b3b9ff, type: 3}
       propertyPath: sentences.Array.data[0]
-      value: I ain't talking until I get me bone
+      value: Nice nice, bone good
+      objectReference: {fileID: 0}
+    - target: {fileID: 7471704611733621651, guid: a8040b0cec6771b42b4dfa5c26b3b9ff, type: 3}
+      propertyPath: sentences.Array.data[1]
+      value: You've been woofing around and have no idea of the disaster
+      objectReference: {fileID: 0}
+    - target: {fileID: 7471704611733621651, guid: a8040b0cec6771b42b4dfa5c26b3b9ff, type: 3}
+      propertyPath: sentences.Array.data[2]
+      value: Your god awful and honestly boring photo album has been missing some
+        pics
+      objectReference: {fileID: 0}
+    - target: {fileID: 7471704611733621651, guid: a8040b0cec6771b42b4dfa5c26b3b9ff, type: 3}
+      propertyPath: sentences.Array.data[3]
+      value: Know where the bone was? you have to break the olla next to it
+      objectReference: {fileID: 0}
+    - target: {fileID: 7471704611733621651, guid: a8040b0cec6771b42b4dfa5c26b3b9ff, type: 3}
+      propertyPath: sentences.Array.data[4]
+      value: Look for ollal scattered across the level
+      objectReference: {fileID: 0}
+    - target: {fileID: 7471704611733621651, guid: a8040b0cec6771b42b4dfa5c26b3b9ff, type: 3}
+      propertyPath: sentences.Array.data[5]
+      value: Jump on them 4 times, and you may or may not find the pics depending
+        on your miserable luck
+      objectReference: {fileID: 0}
+    - target: {fileID: 7471704611733621651, guid: a8040b0cec6771b42b4dfa5c26b3b9ff, type: 3}
+      propertyPath: sentences.Array.data[6]
+      value: Also, Ghost Pin heard you were around the hood
+      objectReference: {fileID: 0}
+    - target: {fileID: 7471704611733621651, guid: a8040b0cec6771b42b4dfa5c26b3b9ff, type: 3}
+      propertyPath: sentences.Array.data[7]
+      value: Good luck running away because you can neither fight nor protect yourself
+      objectReference: {fileID: 0}
+    - target: {fileID: 7471704611733621651, guid: a8040b0cec6771b42b4dfa5c26b3b9ff, type: 3}
+      propertyPath: sentences.Array.data[8]
+      value: Now, woof off
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a8040b0cec6771b42b4dfa5c26b3b9ff, type: 3}

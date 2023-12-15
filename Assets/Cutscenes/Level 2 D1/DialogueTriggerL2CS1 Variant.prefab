@@ -7,22 +7,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 7471704610305171368, guid: a8040b0cec6771b42b4dfa5c26b3b9ff, type: 3}
-      propertyPath: m_text
-      value: Metwaly
-      objectReference: {fileID: 0}
-    - target: {fileID: 7471704610305171368, guid: a8040b0cec6771b42b4dfa5c26b3b9ff, type: 3}
-      propertyPath: m_margin.x
-      value: -21.92276
-      objectReference: {fileID: 0}
-    - target: {fileID: 7471704610305171368, guid: a8040b0cec6771b42b4dfa5c26b3b9ff, type: 3}
-      propertyPath: m_margin.z
-      value: 148.31906
-      objectReference: {fileID: 0}
-    - target: {fileID: 7471704610305171375, guid: a8040b0cec6771b42b4dfa5c26b3b9ff, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: -29.3
-      objectReference: {fileID: 0}
     - target: {fileID: 7471704611002228617, guid: a8040b0cec6771b42b4dfa5c26b3b9ff, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -70,34 +54,6 @@ PrefabInstance:
     - target: {fileID: 7471704611002228623, guid: a8040b0cec6771b42b4dfa5c26b3b9ff, type: 3}
       propertyPath: m_Name
       value: DialogueTriggerL2CS1 Variant
-      objectReference: {fileID: 0}
-    - target: {fileID: 7471704611733621651, guid: a8040b0cec6771b42b4dfa5c26b3b9ff, type: 3}
-      propertyPath: sentences.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7471704611733621651, guid: a8040b0cec6771b42b4dfa5c26b3b9ff, type: 3}
-      propertyPath: sentences.Array.data[0]
-      value: I ain't talking until I get me bone
-      objectReference: {fileID: 0}
-    - target: {fileID: 7471704611733621651, guid: a8040b0cec6771b42b4dfa5c26b3b9ff, type: 3}
-      propertyPath: sentences.Array.data[1]
-      value: But that's because I miss our lives together
-      objectReference: {fileID: 0}
-    - target: {fileID: 7471704611733621651, guid: a8040b0cec6771b42b4dfa5c26b3b9ff, type: 3}
-      propertyPath: sentences.Array.data[2]
-      value: Because no matter how miserable you people were, I had a good life
-      objectReference: {fileID: 0}
-    - target: {fileID: 7471704611733621651, guid: a8040b0cec6771b42b4dfa5c26b3b9ff, type: 3}
-      propertyPath: sentences.Array.data[3]
-      value: Remember who started it all
-      objectReference: {fileID: 0}
-    - target: {fileID: 7471704611733621651, guid: a8040b0cec6771b42b4dfa5c26b3b9ff, type: 3}
-      propertyPath: sentences.Array.data[4]
-      value: Remember who was the main enemry all along
-      objectReference: {fileID: 0}
-    - target: {fileID: 7471704611733621651, guid: a8040b0cec6771b42b4dfa5c26b3b9ff, type: 3}
-      propertyPath: sentences.Array.data[5]
-      value: Now, woof off
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a8040b0cec6771b42b4dfa5c26b3b9ff, type: 3}

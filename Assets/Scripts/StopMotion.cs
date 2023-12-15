@@ -9,12 +9,14 @@ public class StopMotion : MonoBehaviour
     {
         Playermotion player1 = FindObjectOfType<Playermotion>();
         PlayermotionLevel2 player2 = FindObjectOfType<PlayermotionLevel2>();
+
         if (player1 != null){
             //this.anim = Playermotion.anim;
         }
         else if (player2 != null) {
             anim = PlayermotionLevel2.animLevel2;
         }
+
 
         
     }

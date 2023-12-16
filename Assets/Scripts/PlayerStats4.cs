@@ -31,6 +31,16 @@ public class PlayerStats4 : MonoBehaviour
     public AudioClip song;
     private int songCount = 0;
 
+    //Flickering when damaged
+    private SpriteRenderer spriteRenderer;
+
+    private float flickerTime = 0f;
+    public float flickerDuration = 0.1f;
+
+    public bool isImmune = false;
+    private float immunityTime = 0f;
+    public float immunityDuration = 1.5f;
+
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -38,6 +48,7 @@ public class PlayerStats4 : MonoBehaviour
         respawnPoint = transform.position;
         // scoreText.text = "Score: "+ points;
         audioSource = GetComponent<AudioSource>();
+        spriteRenderer = this.gameObject.GetComponent<SpriteRenderer>();
     }
 
     private void Update()
@@ -98,7 +109,18 @@ public class PlayerStats4 : MonoBehaviour
                 Destroy(box);
             }
         }
+        if (this.isImmune == true)
+        {
+            SpriteFlicker();
+            immunityTime = immunityTime + Time.deltaTime;
+            if (immunityTime >= immunityDuration)
+            {
 
+                this.isImmune = false;
+                this.spriteRenderer.enabled = true;
+                Debug.Log("Immunity has ended");
+            }
+        }
 
     }
 
@@ -201,7 +223,7 @@ public class PlayerStats4 : MonoBehaviour
         }
         Debug.Log("Player Health:" + this.health.ToString());
         Debug.Log("Player Lives:" + this.lives.ToString());
-
+        PlayHitReaction();
     }
 
 
@@ -225,5 +247,23 @@ public class PlayerStats4 : MonoBehaviour
         points += p;
         //  scoreText.text = "Score: " + points;
         Debug.Log("Points added");
+    }
+    void PlayHitReaction()
+    {
+        this.isImmune = true;
+        this.immunityTime = 0;
+    }
+
+    void SpriteFlicker()
+    {
+        if (this.flickerTime < this.flickerDuration)
+        {
+            this.flickerTime = this.flickerTime + Time.deltaTime;
+        }
+        else if (this.flickerTime >= this.flickerDuration)
+        {
+            spriteRenderer.enabled = !(spriteRenderer.enabled);
+            this.flickerTime = 0;
+        }
     }
 }

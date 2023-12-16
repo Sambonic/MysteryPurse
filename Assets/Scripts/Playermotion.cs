@@ -111,6 +111,8 @@ public class Playermotion : MonoBehaviour
         if(Puzzle_check.Wrong_Answer)
         {
             FindObjectOfType<PlayerStats>().TakeDamage(100);
+            //rset back
+            Puzzle_check.Wrong_Answer = false;
         }
     }
     public void Shielding()

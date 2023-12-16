@@ -25,7 +25,7 @@ public class PlayerStats : MonoBehaviour
     void Update()
     {
         if (this.isImmune == true) {
-          //  SpriteFlicker();
+            SpriteFlicker();
             immunityTime = immunityTime + Time.deltaTime;
             if (immunityTime >= immunityDuration)
             {
@@ -81,6 +81,7 @@ public class PlayerStats : MonoBehaviour
         FindObjectOfType<HealthBar>().ChangeHealthBarImage(this.health);
         Debug.Log("Added 20 Health. Current health is " + this.health.ToString());
     }
+
     public void TakeDamage(int damage)
     {
         if (this.isImmune == false)

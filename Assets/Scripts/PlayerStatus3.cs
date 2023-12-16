@@ -40,14 +40,23 @@ public class PlayerStatus3 : MonoBehaviour
     public InputField inputFieldTwo;
     public InputField inputFieldThree;
 
+    //Flickering when damaged
+    private SpriteRenderer spriteRenderer;
 
+    private float flickerTime = 0f;
+    public float flickerDuration = 0.1f;
+
+    public bool isImmune = false;
+    private float immunityTime = 0f;
+    public float immunityDuration = 1.5f;
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         Fireblock.isKinematic = true;
         playerAnimation = GetComponent<Animator>();
         respawnPoint = transform.position;
-       // scoreText.text = "Score: "+ points;
+        spriteRenderer = this.gameObject.GetComponent<SpriteRenderer>();
+        // scoreText.text = "Score: "+ points;
     }
 
     private void Update()
@@ -97,6 +106,19 @@ public class PlayerStatus3 : MonoBehaviour
         else if(health <= 0.0f && lives <= 0)
         {
             Destroy(this.gameObject);
+        }
+
+        if (this.isImmune == true)
+        {
+            SpriteFlicker();
+            immunityTime = immunityTime + Time.deltaTime;
+            if (immunityTime >= immunityDuration)
+            {
+
+                this.isImmune = false;
+                this.spriteRenderer.enabled = true;
+                Debug.Log("Immunity has ended");
+            }
         }
     }
 
@@ -206,7 +228,7 @@ public class PlayerStatus3 : MonoBehaviour
         }
         Debug.Log("Player Health:" + this.health.ToString());
         Debug.Log("Player Lives:" + this.lives.ToString());
-        
+        PlayHitReaction();
     }
 
     public void closeLetter()
@@ -252,5 +274,23 @@ public class PlayerStatus3 : MonoBehaviour
         points += p;
       //  scoreText.text = "Score: " + points;
         Debug.Log("Points added");
+    }
+    void PlayHitReaction()
+    {
+        this.isImmune = true;
+        this.immunityTime = 0;
+    }
+
+    void SpriteFlicker()
+    {
+        if (this.flickerTime < this.flickerDuration)
+        {
+            this.flickerTime = this.flickerTime + Time.deltaTime;
+        }
+        else if (this.flickerTime >= this.flickerDuration)
+        {
+            spriteRenderer.enabled = !(spriteRenderer.enabled);
+            this.flickerTime = 0;
+        }
     }
 }

@@ -19,7 +19,7 @@ public class PlayerShielding3 : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKey(KeyCode.Y))
+        if (Input.GetKey(KeyCode.D))
         {
            // isShielding = true;
             shielding();

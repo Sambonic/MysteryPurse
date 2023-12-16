@@ -25,7 +25,7 @@ public class PlayerStats : MonoBehaviour
     void Update()
     {
         if (this.isImmune == true) {
-            SpriteFlicker();
+          //  SpriteFlicker();
             immunityTime = immunityTime + Time.deltaTime;
             if (immunityTime >= immunityDuration)
             {
@@ -36,7 +36,21 @@ public class PlayerStats : MonoBehaviour
             }
         }
     }
-    void PlayHitReaction()
+
+    void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.tag == "Big Health")
+        {
+            Destroy(collision.gameObject);
+            BigHeal();
+        }
+        if (collision.tag == "Small Health")
+        {
+            Destroy(collision.gameObject);
+            SmallHeal();
+        }
+    }
+        void PlayHitReaction()
     {
         this.isImmune = true;
         this.immunityTime = 0;

@@ -131,16 +131,19 @@ public class PlayerStats4 : MonoBehaviour
         }
         if (collision.tag == "Entrance")
         {
+            background_music_manager.instance.pause();
             songCount++;
             if (songCount == 1)
             {
                 audioSource.PlayOneShot(song);
+
             }
         }
 
         if(collision.tag == "Exit")
         {
-            audioSource.Stop();
+           // audioSource.Stop();
+           // musicManager.Play();
         }
 
     }

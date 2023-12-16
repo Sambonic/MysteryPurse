@@ -35,6 +35,10 @@ TagManager:
   - Arena
   - Chest
   - Car
+  - TheBest_daYBox
+  - TheworstDayBox
+  - WrongBox
+  - CanNotForgetDateBox
   layers:
   - Default
   - TransparentFX
@@ -92,4 +96,7 @@ TagManager:
     locked: 0
   - name: Arena
     uniqueID: 963026653
+    locked: 0
+  - name: level 1 message
+    uniqueID: 211811913
     locked: 0

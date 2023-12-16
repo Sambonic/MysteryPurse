@@ -28,13 +28,19 @@ public class pauseMenu : MonoBehaviour
     public void Pause()
     {
         pausemenu.SetActive(true);
+        AudioListener.pause = true;
         Time.timeScale = 0f;
         isPaused = true;
     }
     public void Resume()
     {
         pausemenu.SetActive(false);
+        AudioListener.pause = false;
         Time.timeScale = 1f;
         isPaused = false;
+    }
+    public void mainMenu()
+    {
+        SceneManager.LoadScene(0);
     }
 }

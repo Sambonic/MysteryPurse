@@ -219,7 +219,7 @@ public class PlayerStats4 : MonoBehaviour
         {
             Debug.Log("Gameover");
             Destroy(this.gameObject);
-            //FindObjectOfType<NavigationController>().GoToGameOverScene();
+            FindObjectOfType<NavigationController>().GoToMainMenuScene();
         }
         Debug.Log("Player Health:" + this.health.ToString());
         Debug.Log("Player Lives:" + this.lives.ToString());

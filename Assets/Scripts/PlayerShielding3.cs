@@ -19,7 +19,7 @@ public class PlayerShielding3 : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKey(KeyCode.D))
+        if (Input.GetKey(KeyCode.S))
         {
            // isShielding = true;
             shielding();
@@ -33,13 +33,19 @@ public class PlayerShielding3 : MonoBehaviour
 
     private void shielding()
     {
-        animator.SetTrigger("Shield");
-        shieldCollider.enabled = true; // Enable the edge collider
+        if (animator != null)
+        {
+            animator.SetTrigger("Shield");
+            shieldCollider.enabled = true; // Enable the edge collider
+        }
     }
     private void stopShielding()
     {
-        animator.ResetTrigger("Shield");
-        shieldCollider.enabled = false;
+        if (animator != null)
+        {
+            animator.ResetTrigger("Shield");
+            shieldCollider.enabled = false;
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D other)

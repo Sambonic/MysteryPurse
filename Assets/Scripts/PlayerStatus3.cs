@@ -121,7 +121,6 @@ public class PlayerStatus3 : MonoBehaviour
             }
         }
     }
-
     //method detects collision when 1 object enters another object's collider
     void OnTriggerEnter2D(Collider2D collision)
     {
@@ -187,8 +186,64 @@ public class PlayerStatus3 : MonoBehaviour
             count++;
         }
 
-    }
+    } 
+    public void closeLetter()
+    {
+        string one, two, three, four;
+        one = inputFieldOne.text;
+        two = inputFieldTwo.text;
+        three = inputFieldThree.text;
 
+        if (one == "elfayoum" && two == "pyramids" && three == "marasi")
+        {
+            letterOpened = false;
+            loveletter.SetActive(false);
+            Time.timeScale = 1f;
+            FindObjectOfType<NavigationController>().GoToLevelFourScene();
+        }
+        else
+        {
+            letterOpened = false;
+            loveletter.SetActive(false);
+            Time.timeScale = 1f;
+        }
+    }
+    void Flip()
+    {
+        isFacingRight = !isFacingRight; // Toggle the facing direction flag
+
+        //  Vector3 flippedScale = transform.localScale;
+        //  flippedScale.x *= -1; // Flip the scale in the x-axis
+
+        transform.Rotate(0f, 180f, 0f);
+    }
+    void die()
+    {
+        Destroy(this.gameObject);
+    }
+    public void addPoints(int p)
+    {
+        points += p;
+      //  scoreText.text = "Score: " + points;
+        Debug.Log("Points added");
+    }
+    void PlayHitReaction()
+    {
+        this.isImmune = true;
+        this.immunityTime = 0;
+    }
+    void SpriteFlicker()
+    {
+        if (this.flickerTime < this.flickerDuration)
+        {
+            this.flickerTime = this.flickerTime + Time.deltaTime;
+        }
+        else if (this.flickerTime >= this.flickerDuration)
+        {
+            spriteRenderer.enabled = !(spriteRenderer.enabled);
+            this.flickerTime = 0;
+        }
+    }
     public void BigHeal()
     {
         health += 40;
@@ -196,7 +251,6 @@ public class PlayerStatus3 : MonoBehaviour
         FindObjectOfType<HealthBar>().ChangeHealthBarImage(health);
         Debug.Log("Added " + 40 + " Health. Current health is " + health.ToString());
     }
-
     public void SmallHeal()
     {
         health += 20;
@@ -204,7 +258,6 @@ public class PlayerStatus3 : MonoBehaviour
         FindObjectOfType<HealthBar>().ChangeHealthBarImage(health);
         Debug.Log("Added 20 Health. Current health is " + health.ToString());
     }
-
     public void TakeDamage(int damage)
     {
         this.health = this.health - damage;
@@ -229,68 +282,5 @@ public class PlayerStatus3 : MonoBehaviour
         Debug.Log("Player Health:" + this.health.ToString());
         Debug.Log("Player Lives:" + this.lives.ToString());
         PlayHitReaction();
-    }
-
-    public void closeLetter()
-    {
-        string one, two, three, four;
-        one = inputFieldOne.text;
-        two = inputFieldTwo.text;
-        three = inputFieldThree.text;
-
-        if (one == "elfayoum" && two == "pyramids" && three == "marasi")
-        {
-            letterOpened = false;
-            loveletter.SetActive(false);
-            Time.timeScale = 1f;
-            FindObjectOfType<NavigationController>().GoToLevelFourScene();
-        }
-        else
-        {
-            letterOpened = false;
-            loveletter.SetActive(false);
-            Time.timeScale = 1f;
-        }
-    }
-
-
-
-    void Flip()
-    {
-        isFacingRight = !isFacingRight; // Toggle the facing direction flag
-
-        //  Vector3 flippedScale = transform.localScale;
-        //  flippedScale.x *= -1; // Flip the scale in the x-axis
-
-        transform.Rotate(0f, 180f, 0f);
-    }
-
-    void die()
-    {
-        Destroy(this.gameObject);
-    }
-    public void addPoints(int p)
-    {
-        points += p;
-      //  scoreText.text = "Score: " + points;
-        Debug.Log("Points added");
-    }
-    void PlayHitReaction()
-    {
-        this.isImmune = true;
-        this.immunityTime = 0;
-    }
-
-    void SpriteFlicker()
-    {
-        if (this.flickerTime < this.flickerDuration)
-        {
-            this.flickerTime = this.flickerTime + Time.deltaTime;
-        }
-        else if (this.flickerTime >= this.flickerDuration)
-        {
-            spriteRenderer.enabled = !(spriteRenderer.enabled);
-            this.flickerTime = 0;
-        }
     }
 }

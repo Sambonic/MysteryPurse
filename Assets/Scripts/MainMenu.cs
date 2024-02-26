@@ -7,7 +7,7 @@ public class MainMenu : MonoBehaviour
 {
     public void StartGame()
     {
-        SceneManager.LoadScene(1);
+        FindObjectOfType<NavigationController>().GoToIntroScene();
     }
 
     public void QuitGame()

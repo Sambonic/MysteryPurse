@@ -50,7 +50,7 @@ public class PlayerStats : MonoBehaviour
             SmallHeal();
         }
     }
-        void PlayHitReaction()
+    void PlayHitReaction()
     {
         this.isImmune = true;
         this.immunityTime = 0;
@@ -87,7 +87,8 @@ public class PlayerStats : MonoBehaviour
         if (this.isImmune == false)
         {
             this.health = this.health - damage;
-            
+
+            FindObjectOfType<SoundEffects>().PlayDamageSound();
             if (this.health < 0)
                 this.health = 0;
             FindObjectOfType<HealthBar>().ChangeHealthBarImage(this.health);

@@ -9,21 +9,25 @@ public class NavigationController : MonoBehaviour
     {
         SceneManager.LoadScene(0);
     }
-    public void GoToLevelOneScene()
+    public void GoToIntroScene()
     {
         SceneManager.LoadScene(1);
     }
-    public void GoToLevelTwoScene()
+    public void GoToLevelOneScene()
     {
         SceneManager.LoadScene(2);
     }
-    public void GoToLevelThreeScene()
+    public void GoToLevelTwoScene()
     {
         SceneManager.LoadScene(3);
     }
-    public void GoToLevelFourScene()
+    public void GoToLevelThreeScene()
     {
         SceneManager.LoadScene(4);
+    }
+    public void GoToLevelFourScene()
+    {
+        SceneManager.LoadScene(5);
     }
     public void Quit()
     {

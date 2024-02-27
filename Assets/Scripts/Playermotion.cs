@@ -74,7 +74,7 @@ public class Playermotion : MonoBehaviour
     {
         if (Input.GetKey(KeyCode.Space) && grounded)
         {
-            body.velocity = new Vector2(body.velocity.x, 10);
+            body.velocity = new Vector2(body.velocity.x, 11);
             grounded = false;
            
         }

@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 460687816017606898}
   - component: {fileID: 4299467528339964693}
   - component: {fileID: 3108499905048872875}
+  - component: {fileID: 1399101255166369028}
   - component: {fileID: 4846649019781356727}
   m_Layer: 3
   m_Name: PlayerLevel2
@@ -168,7 +169,6 @@ MonoBehaviour:
   flickerDuration: 0.1
   isImmune: 0
   immunityDuration: 1.5
-  coinsCollected: 0
 --- !u!114 &3108499905048872875
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -181,6 +181,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0aaed2d2ec652f146b6ec534d3c19df2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PictureAcquiredMessage: {fileID: 0}
+--- !u!114 &1399101255166369028
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4846649019781356721}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a47516a75dc9f346b8c9aaab53b3762, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damageSound: {fileID: 0}
 --- !u!95 &4846649019781356727
 Animator:
   serializedVersion: 4

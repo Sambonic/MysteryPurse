@@ -1,0 +1,88 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &3923660859307487514
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 7471704611002228617, guid: a8040b0cec6771b42b4dfa5c26b3b9ff, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7471704611002228617, guid: a8040b0cec6771b42b4dfa5c26b3b9ff, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 6.17
+      objectReference: {fileID: 0}
+    - target: {fileID: 7471704611002228617, guid: a8040b0cec6771b42b4dfa5c26b3b9ff, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.94
+      objectReference: {fileID: 0}
+    - target: {fileID: 7471704611002228617, guid: a8040b0cec6771b42b4dfa5c26b3b9ff, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.6172757
+      objectReference: {fileID: 0}
+    - target: {fileID: 7471704611002228617, guid: a8040b0cec6771b42b4dfa5c26b3b9ff, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7471704611002228617, guid: a8040b0cec6771b42b4dfa5c26b3b9ff, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7471704611002228617, guid: a8040b0cec6771b42b4dfa5c26b3b9ff, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7471704611002228617, guid: a8040b0cec6771b42b4dfa5c26b3b9ff, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7471704611002228617, guid: a8040b0cec6771b42b4dfa5c26b3b9ff, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7471704611002228617, guid: a8040b0cec6771b42b4dfa5c26b3b9ff, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7471704611002228617, guid: a8040b0cec6771b42b4dfa5c26b3b9ff, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7471704611002228623, guid: a8040b0cec6771b42b4dfa5c26b3b9ff, type: 3}
+      propertyPath: m_Name
+      value: DialogueTrigger
+      objectReference: {fileID: 0}
+    - target: {fileID: 7471704611733621651, guid: a8040b0cec6771b42b4dfa5c26b3b9ff, type: 3}
+      propertyPath: sentences.Array.size
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7471704611733621651, guid: a8040b0cec6771b42b4dfa5c26b3b9ff, type: 3}
+      propertyPath: sentences.Array.data[0]
+      value: Menawar yasta I mean woof woof we bri'ish or smth
+      objectReference: {fileID: 0}
+    - target: {fileID: 7471704611733621651, guid: a8040b0cec6771b42b4dfa5c26b3b9ff, type: 3}
+      propertyPath: sentences.Array.data[1]
+      value: I am sure by now you realise you're in deep chitchat right now
+      objectReference: {fileID: 0}
+    - target: {fileID: 7471704611733621651, guid: a8040b0cec6771b42b4dfa5c26b3b9ff, type: 3}
+      propertyPath: sentences.Array.data[2]
+      value: You're at the bottom of the purse and the goal is to get up
+      objectReference: {fileID: 0}
+    - target: {fileID: 7471704611733621651, guid: a8040b0cec6771b42b4dfa5c26b3b9ff, type: 3}
+      propertyPath: sentences.Array.data[3]
+      value: Each level of this purse has some puzzle to solve to proceed
+      objectReference: {fileID: 0}
+    - target: {fileID: 7471704611733621651, guid: a8040b0cec6771b42b4dfa5c26b3b9ff, type: 3}
+      propertyPath: sentences.Array.data[4]
+      value: For this one you've gotta listen carefully to what's being said (dates
+        w keda wink wink)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7471704611733621651, guid: a8040b0cec6771b42b4dfa5c26b3b9ff, type: 3}
+      propertyPath: sentences.Array.data[5]
+      value: Now good luck and woof off
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: a8040b0cec6771b42b4dfa5c26b3b9ff, type: 3}

@@ -1,28 +1,41 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class SoundEffects : MonoBehaviour
 {
-    public AudioClip damageSound; // Reference to the sound effect
+    [SerializeField] public AudioClip[] soundEffects; // Array of sound effects (now marked with SerializeField)
     private AudioSource audioSource;
 
     void Start()
     {
-        // Get the AudioSource component attached to this object
         audioSource = GetComponent<AudioSource>();
-        // Set the sound effect clip
-        audioSource.clip = damageSound;
+
+        // Check if the sound effects array is not null and contains at least one clip
+        if (soundEffects == null || soundEffects.Length == 0)
+        {
+            Debug.LogError("No sound effects assigned in the inspector!");
+            return; // Exit if no valid sounds are provided
+        }
     }
 
-    // Function to play the sound effect when the character is damaged
+    // Function to play a random sound effect
     public void PlayDamageSound()
     {
-        // Check if the audio clip is not null and the AudioSource is not playing
-        if (damageSound != null && !audioSource.isPlaying)
+        // Choose a random index within the valid range of the array
+        int randomIndex = Random.Range(0, soundEffects.Length);
+
+        // Check if the randomly chosen sound clip is not null
+        if (soundEffects[randomIndex] != null)
         {
-            // Play the sound effect
-            audioSource.PlayOneShot(damageSound);
+            // Calculate the starting time skipping the first 0.2 seconds
+            float normalizedStartTime = 0.5f / soundEffects[randomIndex].length;
+
+            audioSource.clip = soundEffects[randomIndex];
+            audioSource.time = normalizedStartTime;
+            audioSource.PlayOneShot(soundEffects[randomIndex]);
+        }
+        else
+        {
+            Debug.LogError("An element in the sound effects array is null!");
         }
     }
 }

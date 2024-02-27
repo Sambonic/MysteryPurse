@@ -19,6 +19,7 @@ public class LevelBounds : MonoBehaviour
     {
         if(collision.tag=="Player")
         {
+            FindObjectOfType<PlayerStats>().isImmune = false;
             FindObjectOfType<PlayerStats>().TakeDamage(100);
         }
     }

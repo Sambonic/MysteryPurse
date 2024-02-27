@@ -75,8 +75,10 @@
     <Compile Include="Assets\Scripts\HealthBar3.cs" />
     <Compile Include="Assets\Scripts\EnemyFollow.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeA.cs" />
+    <Compile Include="Assets\Scripts\Thoughts.cs" />
     <Compile Include="Assets\Scripts\Fire.cs" />
     <Compile Include="Assets\Scripts\Box_paper.cs" />
+    <Compile Include="Assets\Scripts\VideoLoader.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshProFloatingText.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeB.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\EnvMapAnimator.cs" />
@@ -173,6 +175,7 @@
     <Compile Include="Assets\Scripts\DialogueTrigger.cs" />
     <Compile Include="Assets\Prefabs\Cainos\Third Party\Lucid Editor\Runtime\Attributes\BoxGroupAttribute.cs" />
     <Compile Include="Assets\Scripts\Box3.cs" />
+    <Compile Include="Assets\Scripts\LevelThreeStuff.cs" />
     <Compile Include="Assets\Prefabs\Cainos\Third Party\Lucid Editor\Runtime\Attributes\ValidateInputAttribute.cs" />
     <Compile Include="Assets\Scripts\Spikes.cs" />
     <Compile Include="Assets\Scripts\PlayerAttack3.cs" />
@@ -226,8 +229,6 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexZoom.cs" />
     <Compile Include="Assets\Prefabs\Cainos\Third Party\Lucid Editor\Runtime\Attributes\FoldoutGroupAttribute.cs" />
     <Compile Include="Assets\Prefabs\Cainos\Third Party\Lucid Editor\Runtime\Attributes\DisableLucidEditorAttribute.cs" />
-    <Compile Include="Assets\Scripts\VideoLoader.cs" />
-    <Compile Include="Assets\Scripts\LevelThreeStuff.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Prefabs\Cainos\Third Party\Lucid Editor\License.txt" />

@@ -36,7 +36,6 @@ public class PlayerStats : MonoBehaviour
             }
         }
     }
-
     void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.tag == "Big Health")
@@ -81,7 +80,6 @@ public class PlayerStats : MonoBehaviour
         FindObjectOfType<HealthBar>().ChangeHealthBarImage(this.health);
         Debug.Log("Added 20 Health. Current health is " + this.health.ToString());
     }
-
     public void TakeDamage(int damage)
     {
         if (this.isImmune == false)
@@ -129,7 +127,7 @@ public class PlayerStats : MonoBehaviour
             {
                 Debug.Log("Gameover");
                 Destroy(this.gameObject);
-                FindObjectOfType<NavigationController>().GoToMainMenuScene();
+                FindObjectOfType<pauseMenu>().RestartLevel();
             }
             Debug.Log("Player Health:" + this.health.ToString());
             Debug.Log("Player Lives:" + this.lives.ToString());

@@ -1,0 +1,475 @@
+fileFormatVersion: 2
+guid: 5c5d73ca1568f7c4ea5d525f5d88ccce
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 2d-stylized-sheet-of-different-types-of-gem-icon-png_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 941
+        width: 178
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4ea11519c3c8d2459b3b9cec409ed35
+      internalID: 1629108733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2d-stylized-sheet-of-different-types-of-gem-icon-png_1
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 930
+        width: 99
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 118c37e1ae7e364439e3ed8ed3344411
+      internalID: -284090043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2d-stylized-sheet-of-different-types-of-gem-icon-png_2
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 941
+        width: 251
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8267545c8949a52439940743894b5a1e
+      internalID: 1160655103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2d-stylized-sheet-of-different-types-of-gem-icon-png_3
+      rect:
+        serializedVersion: 2
+        x: 902
+        y: 930
+        width: 78
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c023c68a1c77c148963eed1b37ed733
+      internalID: -1585804221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2d-stylized-sheet-of-different-types-of-gem-icon-png_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7
+        width: 454
+        height: 910
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c3693af55937164d999ff4040acc2ad
+      internalID: 50368536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2d-stylized-sheet-of-different-types-of-gem-icon-png_5
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 696
+        width: 190
+        height: 233
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3117ff6e5cc2514882f1ba05f74a2c9
+      internalID: -2051151963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2d-stylized-sheet-of-different-types-of-gem-icon-png_6
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 708
+        width: 246
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5baa993b14af4cd4bbb5d8ae73e58274
+      internalID: -425777992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2d-stylized-sheet-of-different-types-of-gem-icon-png_7
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 241
+        width: 267
+        height: 453
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dba1e428f8f84054b85ddc36c6597a03
+      internalID: -563387139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2d-stylized-sheet-of-different-types-of-gem-icon-png_8
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 474
+        width: 263
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 130929179e90ebe44be7f102a9fad146
+      internalID: -841501590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2d-stylized-sheet-of-different-types-of-gem-icon-png_9
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 515
+        width: 157
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11652e146f049a743bacff22b776ce18
+      internalID: 1005176727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2d-stylized-sheet-of-different-types-of-gem-icon-png_10
+      rect:
+        serializedVersion: 2
+        x: 902
+        y: 463
+        width: 78
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 034127904cbd8374badcb43d4a7b0fe0
+      internalID: -123123353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2d-stylized-sheet-of-different-types-of-gem-icon-png_11
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 0
+        width: 194
+        height: 253
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e0ddbd5f99e80d43b915bb9a0c20519
+      internalID: -1428906500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2d-stylized-sheet-of-different-types-of-gem-icon-png_12
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 7
+        width: 267
+        height: 471
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be4b1c1669258ab429cf3d0a5971edc0
+      internalID: 1764961374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2d-stylized-sheet-of-different-types-of-gem-icon-png_13
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 241
+        width: 246
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba6eae58e942dda489c3a51f04d25f0d
+      internalID: -567690911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2d-stylized-sheet-of-different-types-of-gem-icon-png_14
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 41
+        width: 201
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4257436bbca33ef4dbac08d60c8a8bcc
+      internalID: -1443252970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2d-stylized-sheet-of-different-types-of-gem-icon-png_15
+      rect:
+        serializedVersion: 2
+        x: 902
+        y: 0
+        width: 78
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7bf992882037974b8d59712fd8be3d3
+      internalID: -103584422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      2d-stylized-sheet-of-different-types-of-gem-icon-png_11: -1428906500
+      2d-stylized-sheet-of-different-types-of-gem-icon-png_12: 1764961374
+      2d-stylized-sheet-of-different-types-of-gem-icon-png_8: -841501590
+      2d-stylized-sheet-of-different-types-of-gem-icon-png_1: -284090043
+      2d-stylized-sheet-of-different-types-of-gem-icon-png_10: -123123353
+      2d-stylized-sheet-of-different-types-of-gem-icon-png_14: -1443252970
+      2d-stylized-sheet-of-different-types-of-gem-icon-png_2: 1160655103
+      2d-stylized-sheet-of-different-types-of-gem-icon-png_3: -1585804221
+      2d-stylized-sheet-of-different-types-of-gem-icon-png_9: 1005176727
+      2d-stylized-sheet-of-different-types-of-gem-icon-png_6: -425777992
+      2d-stylized-sheet-of-different-types-of-gem-icon-png_7: -563387139
+      2d-stylized-sheet-of-different-types-of-gem-icon-png_0: 1629108733
+      2d-stylized-sheet-of-different-types-of-gem-icon-png_4: 50368536
+      2d-stylized-sheet-of-different-types-of-gem-icon-png_5: -2051151963
+      2d-stylized-sheet-of-different-types-of-gem-icon-png_15: -103584422
+      2d-stylized-sheet-of-different-types-of-gem-icon-png_13: -567690911
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

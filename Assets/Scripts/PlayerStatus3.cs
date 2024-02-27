@@ -261,7 +261,7 @@ public class PlayerStatus3 : MonoBehaviour
     public void TakeDamage(int damage)
     {
         this.health = this.health - damage;
-
+        FindObjectOfType<SoundEffects>().PlayDamageSound();
         if (this.health < 0)
             this.health = 0;
         FindObjectOfType<HealthBar>().ChangeHealthBarImage(this.health);
@@ -277,7 +277,7 @@ public class PlayerStatus3 : MonoBehaviour
         {
             Debug.Log("Gameover");
             Destroy(this.gameObject);
-            FindObjectOfType<NavigationController>().GoToMainMenuScene();
+            FindObjectOfType<pauseMenu>().RestartLevel();
         }
         Debug.Log("Player Health:" + this.health.ToString());
         Debug.Log("Player Lives:" + this.lives.ToString());

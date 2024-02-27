@@ -7,7 +7,7 @@ public class EnemyHealth4 : MonoBehaviour
     public int maxHealth = 100; // Maximum health of the enemy
     private int currentHealth; // Current health of the enemy
     public PlayerStats4 player;
-
+    public GameObject rose;
     private void Start()
     {
         currentHealth = maxHealth; // Set the enemy's health to max when the game starts
@@ -32,6 +32,10 @@ public class EnemyHealth4 : MonoBehaviour
     {
         // Example: Destroy the enemy object
         Destroy(gameObject);
-        FindObjectOfType<NavigationController>().GoToMainMenuScene();
+        Vector3 modifiedPosition = transform.position;
+        modifiedPosition.y -= 1.5f; // Replace offsetValue with your desired downward shift
+
+        Instantiate(rose, modifiedPosition, transform.rotation);
+
     }
 }

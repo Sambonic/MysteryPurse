@@ -39,6 +39,7 @@ TagManager:
   - TheworstDayBox
   - WrongBox
   - CanNotForgetDateBox
+  - rose
   layers:
   - Default
   - TransparentFX

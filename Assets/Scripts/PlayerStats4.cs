@@ -146,7 +146,7 @@ public class PlayerStats4 : MonoBehaviour
             Destroy(collision.gameObject);
             BigHeal();
         }
-         if (collision.tag == "Small Health")
+        if (collision.tag == "Small Health")
         {
             Destroy(collision.gameObject);
             SmallHeal();
@@ -168,15 +168,19 @@ public class PlayerStats4 : MonoBehaviour
             {
                 audioSource.PlayOneShot(song);
             }
+
         }
 
 
         if (collision.tag == "Exit")
         {
-           // audioSource.Stop();
-           // musicManager.Play();
+            // audioSource.Stop();
+            // musicManager.Play();
         }
-
+        if (collision.tag == "rose")
+        {
+            FindObjectOfType<FadeToWhite>().StartFade();
+        }
     }
     private void OnTriggerStay2D(Collider2D collision)
     {

@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class FadeToWhite : MonoBehaviour
 {
     public Image fadeImage;
-    public float fadeSpeed = 1.0f; // adjust speed for desired fade duration
+    public float fadeSpeed = 6.0f; // adjust speed for desired fade duration
     [SerializeField] private Canvas canvasToDisable;
     private bool isFading = false;
 
@@ -38,8 +38,8 @@ public class FadeToWhite : MonoBehaviour
         {
             alpha = 1.0f;
             isFading = false;
-            // Load main menu scene here
-            FindObjectOfType<NavigationController>().GoToMainMenuScene();
+      
+            FindObjectOfType<NavigationController>().GoToConclusion();
         }
 
         fadeImage.color = new Color(1, 1, 1, alpha);

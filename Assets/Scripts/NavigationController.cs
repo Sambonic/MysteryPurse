@@ -29,6 +29,10 @@ public class NavigationController : MonoBehaviour
     {
         SceneManager.LoadScene(5);
     }
+    public void GoToConclusion()
+    {
+        SceneManager.LoadScene(6);
+    }
     public void Quit()
     {
         Application.Quit();

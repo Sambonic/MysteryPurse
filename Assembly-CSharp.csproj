@@ -231,6 +231,8 @@
     <Compile Include="Assets\Prefabs\Cainos\Third Party\Lucid Editor\Runtime\Attributes\DisableLucidEditorAttribute.cs" />
     <Compile Include="Assets\Scripts\ControlMenu.cs" />
     <Compile Include="Assets\Scripts\FadeToWhite.cs" />
+    <Compile Include="Assets\Scripts\FadeFromWhite.cs" />
+    <Compile Include="Assets\Scripts\ReturnBack.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Prefabs\Cainos\Third Party\Lucid Editor\License.txt" />

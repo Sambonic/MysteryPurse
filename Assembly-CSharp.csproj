@@ -86,6 +86,7 @@
     <Compile Include="Assets\SoundEffects_Scripts\Paper.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\CameraController.cs" />
     <Compile Include="Assets\Scripts\TextFadeIn.cs" />
+    <Compile Include="Assets\Scripts\FadeToWhite.cs" />
     <Compile Include="Assets\Scripts\LevelManager.cs" />
     <Compile Include="Assets\SoundEffects_Scripts\Fighting_Audioo.cs" />
     <Compile Include="Assets\Prefabs\Cainos\Third Party\Lucid Editor\Runtime\PropertyGroupAttribute.cs" />
@@ -116,6 +117,7 @@
     <Compile Include="Assets\SoundEffects_Scripts\Audio_with_puase1.cs" />
     <Compile Include="Assets\Prefabs\Cainos\Third Party\Lucid Editor\Runtime\Attributes\BlockquoteAttribute.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexJitter.cs" />
+    <Compile Include="Assets\Scripts\ReturnBack.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventHandler.cs" />
     <Compile Include="Assets\Scripts\fireball4.cs" />
     <Compile Include="Assets\SoundEffects_Scripts\OneTime_Audio_M.cs" />
@@ -158,6 +160,7 @@
     <Compile Include="Assets\Prefabs\Cainos\Third Party\Lucid Editor\Runtime\Attributes\AssetsOnlyAttribute.cs" />
     <Compile Include="Assets\Prefabs\Cainos\Third Party\Lucid Editor\Runtime\Attributes\GroupAttribute.cs" />
     <Compile Include="Assets\Scripts\WeaponFall.cs" />
+    <Compile Include="Assets\Scripts\ControlMenu.cs" />
     <Compile Include="Assets\Scripts\FinaldBossMessage.cs" />
     <Compile Include="Assets\Scripts\HealthBar4.cs" />
     <Compile Include="Assets\Prefabs\Cainos\Third Party\Lucid Editor\Runtime\Attributes\TabGroupAttribute.cs" />
@@ -218,6 +221,7 @@
     <Compile Include="Assets\Scripts\DialogueBoxAnimation.cs" />
     <Compile Include="Assets\Scripts\Destructible_platforms.cs" />
     <Compile Include="Assets\Scripts\ResPointsMovement.cs" />
+    <Compile Include="Assets\Scripts\FadeFromWhite.cs" />
     <Compile Include="Assets\Scripts\EnemyController_Chase3.cs" />
     <Compile Include="Assets\Prefabs\Cainos\Third Party\Lucid Editor\Runtime\Attributes\SectionHeaderAttribute.cs" />
     <Compile Include="Assets\SoundEffects_Scripts\Puzzle_check.cs" />
@@ -229,10 +233,6 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexZoom.cs" />
     <Compile Include="Assets\Prefabs\Cainos\Third Party\Lucid Editor\Runtime\Attributes\FoldoutGroupAttribute.cs" />
     <Compile Include="Assets\Prefabs\Cainos\Third Party\Lucid Editor\Runtime\Attributes\DisableLucidEditorAttribute.cs" />
-    <Compile Include="Assets\Scripts\ControlMenu.cs" />
-    <Compile Include="Assets\Scripts\FadeToWhite.cs" />
-    <Compile Include="Assets\Scripts\FadeFromWhite.cs" />
-    <Compile Include="Assets\Scripts\ReturnBack.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Prefabs\Cainos\Third Party\Lucid Editor\License.txt" />

@@ -1,6 +1,6 @@
 # Mystery Purse Documentation
 
-![Mystery Purse Trailer](https://img.youtube.com/vi/VIDEO_ID_HERE/0.jpg)](https://youtu.be/Ro3D7H7lKf8)
+![Mystery Purse Trailer](https://img.youtube.com/vi/Ro3D7H7lKf8/0.jpg)]([https://youtu.be/Ro3D7H7lKf8](https://www.youtube.com/watch?v=Ro3D7H7lKf8))
 
 
 #### Last Updated: February 29th, 2024

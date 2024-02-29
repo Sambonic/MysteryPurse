@@ -1,6 +1,9 @@
 # Mystery Purse Documentation
 
-[![Mystery Purse Trailer](https://img.youtube.com/vi/Ro3D7H7lKf8/0.jpg)](https://www.youtube.com/watch?v=Ro3D7H7lKf8)
+![Mystery Purse Screenshot](miscellaneous/images/mysterpurse_welcome.png)
+
+You can watch the one-minute game trailer [here](https://www.youtube.com/watch?v=Ro3D7H7lKf8) . It was too big to upload directly in github, but you won't regret watching ;)
+
 
 
 #### Last Updated: February 29th, 2024
@@ -14,7 +17,7 @@
 <a name="story"></a>
 ## Story 
 
-![Mystery Purse Screenshot](miscellaneous/images/mysterpurse_welcome.png)
+![Mystery Purse Screenshot](miscellaneous/images/home.png)
 
 Taimor, a weary husband, returns home from a long day at work. While enjoying his dinner, his wife, Shafika, nags him for forgetting something important that day. Exhausted, he leaves and goes to relax in his room when he suddenly hears a sound. As he approaches her purse wearingly, he opens the purse and sticks his hand to find the source of the sound. That’s when an unexpected and bizarre event occurs. Taimor is inexplicably swallowed into the depths of the purse, encountering a surreal world filled with obstacles and adversaries—each one representing a unique item from within the purse. He soon finds himself in the purse’s lowest level, where he discovers the spirit of his old dog, Metwaly, who both guides and abuses him throughout the levels.
 What was going to be another mundane afternoon turned into an escape became an action-packed night as Taimor fights way through purse-themed enemies like rouge, mascara, and pins, as he solves puzzles based on his relationship, spanning dates, vacations, and even a love letter to finally face his greatest foe – the one who soured his relationship with his wife, in a one-on-one confrontation that includes flip-flops thrown around violently.
@@ -68,8 +71,14 @@ python -m venv env
 
 ![Mystery Purse Controls](miscellaneous/images/gameplay.png)
 
-Open the project through unity.
-Go to 
+Build the executable file:
+1. Open the project through unity.
+2. Go to file tab
+3. Press build settings
+4. Press build
+5. Run the .exe file
+6. Enjoy :)
+   
 Game controls:
 - Arrows for movement
 - D for defense

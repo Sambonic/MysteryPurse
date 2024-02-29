@@ -17,7 +17,7 @@ You can watch the one-minute game trailer [here](https://www.youtube.com/watch?v
 <a name="story"></a>
 ## Story 
 
-![Mystery Purse Screenshot](miscellaneous/images/home.png)
+<img src="miscellaneous/images/home.png" alt="Mystery Purse Screenshot" width="100%">
 
 Taimor, a weary husband, returns home from a long day at work. While enjoying his dinner, his wife, Shafika, nags him for forgetting something important that day. Exhausted, he leaves and goes to relax in his room when he suddenly hears a sound. As he approaches her purse wearingly, he opens the purse and sticks his hand to find the source of the sound. That’s when an unexpected and bizarre event occurs. Taimor is inexplicably swallowed into the depths of the purse, encountering a surreal world filled with obstacles and adversaries—each one representing a unique item from within the purse. He soon finds himself in the purse’s lowest level, where he discovers the spirit of his old dog, Metwaly, who both guides and abuses him throughout the levels.
 What was going to be another mundane afternoon turned into an escape became an action-packed night as Taimor fights way through purse-themed enemies like rouge, mascara, and pins, as he solves puzzles based on his relationship, spanning dates, vacations, and even a love letter to finally face his greatest foe – the one who soured his relationship with his wife, in a one-on-one confrontation that includes flip-flops thrown around violently.
